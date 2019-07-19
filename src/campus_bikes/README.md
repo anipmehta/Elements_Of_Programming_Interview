@@ -22,3 +22,9 @@ bikes = [[1,0],[2,2],[2,1]]
 Worker 0 grabs Bike 0 at first. Worker 1 and Worker 2 share the same distance to Bike 2, thus Worker 1 is assigned to Bike 2, and Worker 2 will take Bike 1. So the output is [0,2,1].
 
 ## Analysis
+* N - Number of total workers
+* M - Number of bikes
+* Calculating distance of each worker and bike takes `O(N*M)` and every time we are adding an item to heap it `O(log(size of heap)) = O(log(N*M))`
+* Time Complexity = `O(N*M*log(NM))`
+* Space Complexity = `O(N*M)`
+
