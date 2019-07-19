@@ -1,6 +1,6 @@
 package paint_a_boolean_matrix;
 
-import util.Coordinate;
+import util.MatrixCoordinate;
 import util.GridHelper;
 
 public class Solution {
@@ -10,15 +10,15 @@ public class Solution {
                      {0,1,1}};
         System.out.println("I/P:");
         GridHelper.printGrid(A);
-        paintMatrix(A, new Coordinate(0,1));
+        paintMatrix(A, new MatrixCoordinate(0,1));
         System.out.println("O/P:");
         GridHelper.printGrid(A);
     }
-    public static void paintMatrix(Integer[][] grid, Coordinate coordinate){
+    public static void paintMatrix(Integer[][] grid, MatrixCoordinate coordinate){
         int currColor = grid[coordinate.row][coordinate.col];
         dfs(grid, coordinate, currColor);
     }
-    public static void dfs(Integer[][] grid, Coordinate start, int color){
+    public static void dfs(Integer[][] grid, MatrixCoordinate start, int color){
         if(start.row < 0 || start.col < 0 || start.row > grid.length-1 || start.col > grid[start.row].length-1){
             return;
         }
@@ -30,7 +30,7 @@ public class Solution {
         int [] nextX = {0,0,1,-1};
         int [] nextY = {-1,1,0,0};
         for(int i=0;i<nextX.length;i++){
-            dfs(grid, new Coordinate(start.row + nextX[i], start.col + nextY[i]), color);
+            dfs(grid, new MatrixCoordinate(start.row + nextX[i], start.col + nextY[i]), color);
         }
     }
 }

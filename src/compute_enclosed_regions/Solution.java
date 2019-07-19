@@ -1,7 +1,10 @@
 package compute_enclosed_regions;
 
 import util.Coordinate;
+import util.MatrixCoordinate;
 import util.GridHelper;
+
+import java.util.List;
 
 public class Solution {
     public static void main(String [] args){
@@ -19,13 +22,13 @@ public class Solution {
     public static void changeColorOfBoundedCells(Character[][] A){
         //check first col and last col
         for(int i=0;i<A.length;i++){
-            dfs(A, new Coordinate(i, 0));
-            dfs(A, new Coordinate(i, A[i].length-1));
+            dfs(A, new MatrixCoordinate(i, 0));
+            dfs(A, new MatrixCoordinate(i, A[i].length-1));
         }
         //check first row and last row
         for(int i=0;i<A.length;i++){
-            dfs(A, new Coordinate(0, i));
-            dfs(A, new Coordinate(0, A.length-1));
+            dfs(A, new MatrixCoordinate(0, i));
+            dfs(A, new MatrixCoordinate(0, A.length-1));
         }
         for(int i=0;i<A.length;i++){
             for(int j=0;j<A[i].length;j++){
@@ -34,14 +37,15 @@ public class Solution {
         }
     }
     public static void dfs(Character[][] A, Coordinate coordinate){
+        MatrixCoordinate matrixCoordinate = (MatrixCoordinate) coordinate;
         if(!coordinate.isValid(A)){
             return;
         }
-        if(A[coordinate.row][coordinate.col]!='W'){
+        if(A[matrixCoordinate.row][matrixCoordinate.col]!='W'){
             return;
         }
-        A[coordinate.row][coordinate.col] = 'T';
-        for(Coordinate coord : coordinate.getNeighbours(4)){
+        A[matrixCoordinate.row][matrixCoordinate.col] = 'T';
+        for(Coordinate coord :  coordinate.getNeighbours(4)){
             dfs(A, coord);
         }
     }
