@@ -1,17 +1,17 @@
-##Problem Statement:
+## Problem Statement:
 Let A be a 2D array whose entries are either W or B. Write a program that takes A, and replaces all W's that cannot reach the boundary with a B
-####Intuition :
+#### Intuition :
 Compute the complement of the desired result. Start from boundaries and look for W's and replace the all white neighbours as reachable.
 
-####Example
-######Input
+#### Example
+###### Input
 ```
 A = [[B B B B]
      [W B W B]
      [B W W B]
      [B B B B]]
 ```
-######Output
+###### Output
 ```
 A = [[B B B B]
      [W B B B]
