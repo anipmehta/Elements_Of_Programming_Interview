@@ -24,4 +24,4 @@ Return the number of good starting indexes.
 ## Expected Complexity:
   N - Length of String
  * Time - O(NlogN) 
- * Space - O(N)
+ * Space - O(N)*2 = O(N)
