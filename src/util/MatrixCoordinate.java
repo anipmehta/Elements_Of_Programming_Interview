@@ -23,6 +23,12 @@ public class MatrixCoordinate implements Coordinate{
         list.add(new MatrixCoordinate(this.row - 1, this.col));
         list.add(new MatrixCoordinate(this.row, this.col + 1));
         list.add(new MatrixCoordinate(this.row, this.col - 1));
+        if(i==8){
+            list.add(new MatrixCoordinate(this.row+1, this.col-1));
+            list.add(new MatrixCoordinate(this.row+1, this.col+1));
+            list.add(new MatrixCoordinate(this.row-1, this.col-1));
+            list.add(new MatrixCoordinate(this.row-1, this.col+1));
+        }
         return list;
     }
 }
