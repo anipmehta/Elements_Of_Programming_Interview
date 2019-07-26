@@ -11,9 +11,7 @@ public class TwoDCoordinate implements Coordinate {
         this.y = y;
     }
 
-    public int getManhattanDistance(TwoDCoordinate a){
-        return Math.abs(this.x - a.x) + Math.abs(this.y  - a.y);
-    }
+
     @Override
     public boolean isValid(Object[][] axis) {
         return false;
@@ -22,5 +20,11 @@ public class TwoDCoordinate implements Coordinate {
     @Override
     public List<Coordinate> getNeighbours(int direction) {
         return null;
+    }
+
+    @Override
+    public int getManhattanDistance(Coordinate point) {
+        TwoDCoordinate pointTwoD = (TwoDCoordinate) point;
+        return Math.abs(this.x - pointTwoD.x) + Math.abs(this.y  - pointTwoD.y);
     }
 }

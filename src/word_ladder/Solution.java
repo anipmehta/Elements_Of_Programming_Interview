@@ -47,7 +47,7 @@ public class Solution{
             }
             if(node.word.equals(endWord)){
                 transformations.add(node.path);
-                min_count = node.path.size();
+                min_count = Math.min(min_count,node.path.size());
                 continue;
             }
             visited.add(node.word);

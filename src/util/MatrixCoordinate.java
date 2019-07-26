@@ -31,5 +31,11 @@ public class MatrixCoordinate implements Coordinate{
         }
         return list;
     }
+
+    @Override
+    public int getManhattanDistance(Coordinate point) {
+        MatrixCoordinate matrixCoordinate = (MatrixCoordinate) point;
+        return Math.abs(this.row - matrixCoordinate.row) + Math.abs(this.col  - matrixCoordinate.col);
+    }
 }
 
