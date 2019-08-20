@@ -21,3 +21,7 @@ M=3 , N=4
 4
 ```
 ## Analysis
+```aidl
+Time - O(N*M) - because we are only visiting every cell once
+Space - O(N*M) - Cache size and recursion stack (this can be saved)
+```
