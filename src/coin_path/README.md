@@ -27,7 +27,7 @@ As you can see the time complexity of this approach will be exponential (Time - 
     * See in the above tree idx = 3 subtrees are repeated several times and similarly subtree rooted at idx = 4 and idx = 5
     * Making the time complexity exponential
 * Hint ?
-    * Memoization can be helpful 
+    * Memoization min cost from each index to the end such that we only calculate min cost from each index to end once which makes the time complexity polynomial 
 #### Example
 ###### Input
 ```aidl
