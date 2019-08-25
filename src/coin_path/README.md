@@ -41,7 +41,7 @@ O/P =  [1,3,5]
 ## Analysis
 ```aidl
 N -> A.length
-B -> Possible Jumps starting from any index
+B -> Max Jumps starting from any index
 Time - O(N*B)
 Space - O(N) for memoisation and recursive stack space (which can be saved if implemented in a iterative fashion)
 ```
