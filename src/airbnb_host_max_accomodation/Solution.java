@@ -8,13 +8,8 @@ public class Solution {
     };
     public static int [] output = {4,11,27};
 
-    public static void main(String [] args) {
-        for(int i=0; i<input.length; i++){
-            System.out.println(maxNights(input[i]));
-        }
-    }
 
-    public static int maxNights(int [] A) {
+    public int maxNights(int [] A) {
         int [] cache = new int[A.length];
         return helper(A, 0, cache);
     }
@@ -33,7 +28,7 @@ public class Solution {
      * @return
      *         maximum totalNights
      */
-    private static int helper(int[] A, int index, int[] cache) {
+    private int helper(int[] A, int index, int[] cache) {
         if(index > A.length-1) {
             return 0;
         }
