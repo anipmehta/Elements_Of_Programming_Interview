@@ -1,7 +1,6 @@
 package airbnb_host_max_accomodation;
 
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
+
 
 public class SolutionTest {
     @Test
