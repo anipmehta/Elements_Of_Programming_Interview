@@ -33,8 +33,3 @@ public class Solution {
         return b;
     }
 }
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
