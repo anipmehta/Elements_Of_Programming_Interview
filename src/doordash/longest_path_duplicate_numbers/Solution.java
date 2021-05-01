@@ -1,4 +1,4 @@
-package doordash;
+package doordash.longest_path_duplicate_numbers;
 
 import java.util.List;
 
@@ -58,7 +58,7 @@ public class Solution {
         int [] Y = new int[]{0,0,-1,1};
         int count = 0;
         for(int k=0;k<X.length;k++){
-            count+= dfs(grid, i + X[k], j + Y[k], target, visited, path+1);
+            count += dfs(grid, i + X[k], j + Y[k], target, visited, path+1);
         }
         return count+1;
     }
