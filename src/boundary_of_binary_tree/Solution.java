@@ -117,4 +117,34 @@ public class Solution {
             traversal.add(root.val);
         }
     }
+
+
+    public void getLeaves(TreeNode root, List<Integer> result){
+        if(root==null){
+            return;
+        }
+        if(root.left==null && root.right == null){
+            result.add(root.val);
+        }
+        getLeaves(root.left, result);
+        getLeaves(root.right, result);
+    }
+
+    public void getLeftBoundaries(TreeNode root, List<Integer> result){
+       TreeNode node = root.left;
+        while (node!=null){
+           result.add(root.val);
+           if(node.left==null){
+               node = node.right;
+           }
+           else{
+               node = node.left;
+           }
+       }
+    }
+
+    public void getRightBoundaries(TreeNode root, List<Integer> result){
+
+    }
+
 }
