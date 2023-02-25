@@ -39,12 +39,11 @@ public class Solution {
             for(int [] pos : way){
                 String rowString = "";
 
-                List<String> ans =
-                results.add(ans);
+//                List<String> ans =
+//                results.add(ans);
             }
         }
-
-
+        return results;
 
     }
 

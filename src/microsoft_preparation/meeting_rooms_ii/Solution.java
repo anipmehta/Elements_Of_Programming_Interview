@@ -1,7 +1,5 @@
 package microsoft_preparation.meeting_rooms_ii;
 
-import javafx.scene.layout.Priority;
-
 import java.util.*;
 
 public class Solution {

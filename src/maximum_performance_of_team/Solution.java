@@ -1,7 +1,5 @@
 package maximum_performance_of_team;
 
-import com.sun.scenario.effect.impl.sw.java.JSWEffectPeer;
-
 import java.util.*;
 
 public class Solution {

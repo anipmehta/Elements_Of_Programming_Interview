@@ -1,7 +1,5 @@
 package island_perimeter;
 
-import javafx.scene.control.cell.CheckBoxListCell;
-
 public class Solution {
     public static void main(String [] args){
         char ch = 'a'+ 1;
