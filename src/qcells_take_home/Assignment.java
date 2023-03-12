@@ -11,7 +11,6 @@ public class Assignment {
         while(boxster.getSpeed() < 200 && prius.getSpeed() < 200){
             prius.accelerate(0.2);
             boxster.accelerate(0.2);
-
             System.out.println("----Car's Characteristic after step: " + time++);
             System.out.println(prius.getCharacteristic());
             System.out.println(boxster.getCharacteristic());

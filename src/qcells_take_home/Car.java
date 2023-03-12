@@ -1,5 +1,8 @@
 package qcells_take_home;
 
+/**
+ * Car object that contains name, seats, engine (mileage, hpw) etc
+ */
 public class Car {
     private String name;
     private int seats;
@@ -28,6 +31,11 @@ public class Car {
         return stringBuilder.toString();
     }
 
+    /**
+     * Get characteristic String of the car
+     *
+     * @return String
+     */
     public String getCharacteristic(){
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Name: " + this.name + ";");
@@ -37,6 +45,15 @@ public class Car {
         return stringBuilder.toString();
     }
 
+    /**
+     * Accelerate car's speed by the factor
+     *
+     * Acceleration: newSpeed = currentSpeed + factor*hpw
+     * (assuming mass, wind_resistance etc remains constant as per requirements)
+     *
+     * @param factor (acceleration/deceleration factor)
+     * @throws IllegalArgumentException throws exception if factor in not [-1.0, 1.0]
+     */
     public void accelerate(double factor) throws IllegalArgumentException{
         if(factor < -1.0 || factor > 1.0){
             throw new IllegalArgumentException("Invalid factor for acceleration");

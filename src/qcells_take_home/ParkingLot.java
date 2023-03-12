@@ -1,8 +1,18 @@
 package qcells_take_home;
 
-import java.util.*;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Random;
+import java.util.Set;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.HashSet;
 
+/**
+ * Parking Lot which maintains a directory of spots and cars
+ */
 public class ParkingLot {
+    private Set<Integer> sportIds;
     String name;
     private int capacity;
     Queue<Spot> spotQueue;
@@ -13,8 +23,16 @@ public class ParkingLot {
         this.capacity = capacity;
         spotQueue = new LinkedList<>();
         spotCarMap = new HashMap<>();
+        sportIds = new HashSet<>();
     }
 
+    /**
+     * Parks a car at a random available spot, if parking lot if at full capacity throws an exception
+     *
+     * @param car car
+     * @return Spot object
+     * @throws Exception
+     */
     public Spot parkCar(Car car) throws Exception{
         if(isAtCapacity()){
             throw new Exception("Parking lot is at full capacity: " + this.capacity);
@@ -28,13 +46,25 @@ public class ParkingLot {
     private Spot createNewSpot(){
         Random random = new Random();
         int spotNumber = random.nextInt(this.capacity);
+        while(sportIds.contains(spotNumber)){
+            spotNumber = random.nextInt(this.capacity);
+        }
+        sportIds.add(spotNumber);
         return new Spot(String.valueOf(spotNumber));
     }
 
-    public boolean isAtCapacity(){
+    private boolean isAtCapacity(){
         return this.capacity == spotQueue.size();
     }
 
+    /**
+     * Removes the first car that was added/parked in the parking lot
+     *
+     * If parking lot is empty throws an IllegalArgumentException
+     *
+     * @return Car object
+     * @throws IllegalArgumentException
+     */
     public Car removeCar() throws IllegalArgumentException{
         if(spotQueue.isEmpty()){
             throw new IllegalArgumentException("Parking Lot is empty: " + this.toString());
@@ -42,6 +72,7 @@ public class ParkingLot {
         // removing the first car that came in FIFO
         Spot remove = spotQueue.poll();
         Car car = spotCarMap.get(remove);
+        sportIds.remove(Integer.parseInt(remove.getId()));
         spotCarMap.remove(remove);
         return car;
     }
