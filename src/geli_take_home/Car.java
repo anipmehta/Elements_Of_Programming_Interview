@@ -1,4 +1,4 @@
-package qcells_take_home;
+package geli_take_home;
 
 /**
  * Car object that contains name, seats, engine (mileage, hpw) etc\
