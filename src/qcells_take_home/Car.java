@@ -1,7 +1,8 @@
 package qcells_take_home;
 
 /**
- * Car object that contains name, seats, engine (mileage, hpw) etc
+ * Car object that contains name, seats, engine (mileage, hpw) etc\
+ * Exercise 1
  */
 public class Car {
     private String name;
@@ -46,7 +47,7 @@ public class Car {
     }
 
     /**
-     * Accelerate car's speed by the factor
+     * Accelerate car's speed by the factor provided as input
      *
      * Acceleration: newSpeed = currentSpeed + factor*hpw
      * (assuming mass, wind_resistance etc remains constant as per requirements)

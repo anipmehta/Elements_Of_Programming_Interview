@@ -10,6 +10,13 @@ import java.util.HashSet;
 
 /**
  * Parking Lot which maintains a directory of spots and cars
+ *
+ * Exercise 4
+ *
+ * Create a parking lot with methods to park and remove a car. The spots should be enumerated
+ * and the lot should maintain a directory which car is parked on which spot.
+ * If someone tries to park a car when the lot is at full capacity an error should be raised.
+ *
  */
 public class ParkingLot {
     private Set<Integer> sportIds;
@@ -35,7 +42,7 @@ public class ParkingLot {
      */
     public Spot parkCar(Car car) throws Exception{
         if(isAtCapacity()){
-            throw new Exception("Parking lot is at full capacity: " + this.capacity);
+            throw new Exception("Error parking the car. The lot is at full capacity: " + this.capacity);
         }
         Spot spot = createNewSpot();
         spotQueue.add(spot);
@@ -80,11 +87,13 @@ public class ParkingLot {
     @Override
     public String toString(){
         StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append("-----Parking Lot State-----" + "\n");
         stringBuilder.append("Name: " + this.name + "\n");
         stringBuilder.append("Capacity: " + this.capacity + "\n");
         for(Spot spot : this.spotCarMap.keySet()){
             stringBuilder.append("Spot: " + spot.toString() + ", Car: " + spotCarMap.get(spot).toString() + "\n");
         }
+        stringBuilder.append("----------------------" + "\n");
         return stringBuilder.toString();
     }
 
