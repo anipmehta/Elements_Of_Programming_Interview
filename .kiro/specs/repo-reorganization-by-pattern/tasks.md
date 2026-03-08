@@ -20,20 +20,20 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - Verify every problem folder in the current `src/` has a corresponding entry in `classification.json`
     - **Validates: Requirements 2.1, 2.3**
 
-- [ ] 2. Create target directory structure and migrate problem folders
-  - [~] 2.1 Create the 12 numbered pattern folders and all sub-pattern folders under `src/`
+- [x] 2. Create target directory structure and migrate problem folders
+  - [x] 2.1 Create the 12 numbered pattern folders and all sub-pattern folders under `src/`
     - Create: `01_arrays_and_strings/{two_pointers,sliding_window,prefix_sum}`, `02_linked_lists/`, `03_stacks_and_queues/{monotonic_stack,basic}`, `04_trees/{dfs,bfs,construction}`, `05_graphs/{dfs_bfs,topological_sort,union_find,shortest_path}`, `06_recursion_and_backtracking/{subsets_permutations,constraint_based}`, `07_dynamic_programming/{memoization,bottom_up,dp_on_trees}`, `08_binary_search/`, `09_heaps_and_priority_queues/`, `10_tries/`, `11_design/`, `12_greedy/`
     - Verify `src/util/` is untouched
     - _Requirements: 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8_
 
-  - [ ] 2.2 Write the migration script (`migrate.sh`) that reads `classification.json` and moves each problem folder via `git mv`
+  - [x] 2.2 Write the migration script (`migrate.sh`) that reads `classification.json` and moves each problem folder via `git mv`
     - For each entry: `git mv src/<sourcePath> src/<pattern>/<subPattern?>/<problemName>/`
     - Handle company-nested folders (e.g., `facebook_practice/three_sum` → move the inner problem folder, not the company wrapper)
     - After all moves, remove empty company wrapper directories
     - Log each move for audit
     - _Requirements: 2.1, 2.3_
 
-  - [ ] 2.3 Run the migration script to move all problem folders
+  - [x] 2.3 Run the migration script to move all problem folders
     - Execute `migrate.sh`
     - Verify no problem folders remain in old flat/company locations
     - _Requirements: 2.1, 2.3_
