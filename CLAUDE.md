@@ -2,6 +2,7 @@
 
 ## Branching
 
+- Always fetch and pull latest from `master` before creating a new branch.
 - Always create a new branch for each feature or change. Never commit directly to `main`.
 - Branch naming: `feature/<short-description>` for features, `fix/<short-description>` for fixes.
   - Example: `feature/add-tree-dfs-problems`, `fix/broken-import-paths`
