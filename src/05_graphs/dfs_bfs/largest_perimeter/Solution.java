@@ -1,4 +1,4 @@
-package warner_bros_discovery.largest_perimeter;
+package _05_graphs.dfs_bfs.largest_perimeter;
 
 public class Solution {
     public static void main(String [] args){

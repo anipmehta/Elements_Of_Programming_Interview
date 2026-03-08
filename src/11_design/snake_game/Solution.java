@@ -1,4 +1,4 @@
-package microsoft_preparation.snake_game;
+package _11_design.snake_game;
 
 public class Solution {
     public static void main(String [] args){

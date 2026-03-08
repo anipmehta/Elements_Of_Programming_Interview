@@ -1,4 +1,4 @@
-package twitter_coding_challenge;
+package _01_arrays_and_strings.twitter_coding_challenge;
 
 import java.util.*;
 

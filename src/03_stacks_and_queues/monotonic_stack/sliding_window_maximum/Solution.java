@@ -1,4 +1,4 @@
-package microsoft_preparation.sliding_window_maximum;
+package _03_stacks_and_queues.monotonic_stack.sliding_window_maximum;
 
 import java.util.*;
 

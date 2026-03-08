@@ -1,4 +1,4 @@
-package microsoft_preparation.group_anagrams;
+package _01_arrays_and_strings.group_anagrams;
 
 import java.util.*;
 import java.util.stream.Collectors;

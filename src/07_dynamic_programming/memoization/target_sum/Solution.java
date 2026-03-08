@@ -1,4 +1,4 @@
-package facebook_practice.target_sum;
+package _07_dynamic_programming.memoization.target_sum;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package microsoft_preparation.n_queens;
+package _06_recursion_and_backtracking.constraint_based.n_queens;
 
 import java.util.ArrayList;
 import java.util.List;

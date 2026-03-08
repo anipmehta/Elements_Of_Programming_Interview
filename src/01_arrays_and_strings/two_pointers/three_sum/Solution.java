@@ -1,4 +1,4 @@
-package facebook_practice.three_sum;
+package _01_arrays_and_strings.two_pointers.three_sum;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package meeting_rooms_II;
+package _09_heaps_and_priority_queues.meeting_rooms_II;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package delete_nodes_and_return_forest;
+package _04_trees.dfs.delete_nodes_and_return_forest;
 
 import util.TreeNode;
 

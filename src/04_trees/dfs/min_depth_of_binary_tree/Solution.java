@@ -1,4 +1,4 @@
-package min_depth_of_binary_tree;
+package _04_trees.dfs.min_depth_of_binary_tree;
 
 import util.TreeNode;
 

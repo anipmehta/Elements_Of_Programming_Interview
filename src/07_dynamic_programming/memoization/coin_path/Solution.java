@@ -1,4 +1,4 @@
-package coin_path;
+package _07_dynamic_programming.memoization.coin_path;
 
 import java.util.ArrayList;
 import java.util.List;

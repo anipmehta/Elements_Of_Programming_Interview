@@ -1,4 +1,4 @@
-package remove_invalid_parenthesis;
+package _06_recursion_and_backtracking.constraint_based.remove_invalid_parenthesis;
 
 import java.util.HashSet;
 import java.util.List;

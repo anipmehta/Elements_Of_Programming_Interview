@@ -1,4 +1,4 @@
-package facebook_practice.top_k_frequent_elements;
+package _09_heaps_and_priority_queues.top_k_frequent_elements;
 
 import java.util.*;
 

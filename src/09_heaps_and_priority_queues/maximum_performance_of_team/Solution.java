@@ -1,4 +1,4 @@
-package maximum_performance_of_team;
+package _09_heaps_and_priority_queues.maximum_performance_of_team;
 
 import java.util.*;
 

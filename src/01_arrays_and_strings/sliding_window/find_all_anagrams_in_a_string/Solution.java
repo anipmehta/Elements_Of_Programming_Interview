@@ -1,4 +1,4 @@
-package facebook_practice.find_all_anagrams_in_a_string;
+package _01_arrays_and_strings.sliding_window.find_all_anagrams_in_a_string;
 
 import java.util.ArrayList;
 import java.util.HashMap;

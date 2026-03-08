@@ -1,4 +1,4 @@
-package microsoft_preparation.course_schedule;
+package _05_graphs.topological_sort.course_schedule;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package microsoft_preparation.binary_tree_inorder_traversal;
+package _04_trees.dfs.binary_tree_inorder_traversal;
 
 import util.TreeNode;
 

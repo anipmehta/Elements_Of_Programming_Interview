@@ -1,4 +1,4 @@
-package campus_bikes;
+package _09_heaps_and_priority_queues.campus_bikes;
 
 import util.HeapItem;
 import util.TwoDCoordinate;

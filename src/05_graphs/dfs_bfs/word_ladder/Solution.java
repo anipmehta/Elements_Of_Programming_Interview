@@ -1,4 +1,4 @@
-package word_ladder;
+package _05_graphs.dfs_bfs.word_ladder;
 
 import java.lang.reflect.Array;
 import java.util.*;

@@ -1,4 +1,4 @@
-package airbnb_host_max_accomodation;
+package _07_dynamic_programming.bottom_up.airbnb_host_max_accomodation;
 
 public class Solution {
     public static int input [][] = {

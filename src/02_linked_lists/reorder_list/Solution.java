@@ -1,6 +1,6 @@
-package reorder_list;
+package _02_linked_lists.reorder_list;
 
-import microsoft_preparation.swap_adjacent_linked_list_nodes.ListNode;
+import _02_linked_lists.swap_adjacent_linked_list_nodes.ListNode;
 
 import java.util.Stack;
 

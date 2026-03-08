@@ -1,4 +1,4 @@
-package microsoft_preparation.median_in_data_stream;
+package _09_heaps_and_priority_queues.median_in_data_stream;
 
 import java.util.ArrayList;
 import java.util.Collections;

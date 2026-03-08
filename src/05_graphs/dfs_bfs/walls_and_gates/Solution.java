@@ -1,4 +1,4 @@
-package facebook_practice.walls_and_gates;
+package _05_graphs.dfs_bfs.walls_and_gates;
 
 import java.util.HashMap;
 import java.util.LinkedList;

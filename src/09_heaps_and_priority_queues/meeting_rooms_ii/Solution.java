@@ -1,4 +1,4 @@
-package microsoft_preparation.meeting_rooms_ii;
+package _09_heaps_and_priority_queues.meeting_rooms_ii;
 
 import java.util.*;
 

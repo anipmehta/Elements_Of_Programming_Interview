@@ -1,4 +1,4 @@
-package longest_substring_with_k_dsitinct;
+package _01_arrays_and_strings.sliding_window.longest_substring_with_k_dsitinct;
 
 import java.util.HashMap;
 import java.util.Map;

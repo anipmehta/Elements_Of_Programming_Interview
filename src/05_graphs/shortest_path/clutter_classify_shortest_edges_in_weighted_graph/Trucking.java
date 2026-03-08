@@ -1,4 +1,4 @@
-package clutter_classify_shortest_edges_in_weighted_graph;
+package _05_graphs.shortest_path.clutter_classify_shortest_edges_in_weighted_graph;
 
 import java.util.*;
 

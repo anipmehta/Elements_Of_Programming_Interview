@@ -1,4 +1,4 @@
-package single_row_keyboard;
+package _01_arrays_and_strings.single_row_keyboard;
 
 import java.util.HashMap;
 import java.util.Map;

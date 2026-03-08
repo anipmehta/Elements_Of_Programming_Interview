@@ -1,4 +1,4 @@
-package doordash.course_schedule_II;
+package _05_graphs.topological_sort.course_schedule_II;
 
 
 import java.util.*;

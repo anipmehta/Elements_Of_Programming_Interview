@@ -1,4 +1,4 @@
-package min_window_substring;
+package _01_arrays_and_strings.sliding_window.min_window_substring;
 
 import java.util.HashMap;
 import java.util.Map;

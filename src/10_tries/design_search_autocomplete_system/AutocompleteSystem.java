@@ -1,4 +1,4 @@
-package design_search_autocomplete_system;
+package _10_tries.design_search_autocomplete_system;
 
 import java.util.List;
 

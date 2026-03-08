@@ -1,4 +1,4 @@
-package jump_game;
+package _05_graphs.dfs_bfs.jump_game;
 
 import java.util.HashSet;
 import java.util.LinkedList;

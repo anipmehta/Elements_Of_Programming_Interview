@@ -1,4 +1,4 @@
-package microsoft_preparation.min_deletions_to_make_char_freq_unique;
+package _12_greedy.min_deletions_to_make_char_freq_unique;
 
 import java.util.HashMap;
 import java.util.HashSet;

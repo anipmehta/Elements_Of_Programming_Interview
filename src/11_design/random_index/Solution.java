@@ -1,4 +1,4 @@
-package random_index;
+package _11_design.random_index;
 
 import java.util.*;
 

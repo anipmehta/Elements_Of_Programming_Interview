@@ -1,4 +1,4 @@
-package microsoft_preparation.max_sliding_window;
+package _09_heaps_and_priority_queues.max_sliding_window;
 
 import java.util.ArrayList;
 import java.util.List;

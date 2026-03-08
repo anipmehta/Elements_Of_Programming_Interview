@@ -1,4 +1,4 @@
-package google_code_sample_q1;
+package _12_greedy.google_code_sample_q1;
 
 public class Solution {
     public static void main(String [] args){

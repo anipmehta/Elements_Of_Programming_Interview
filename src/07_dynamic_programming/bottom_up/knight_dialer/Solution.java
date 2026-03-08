@@ -1,4 +1,4 @@
-package facebook_practice.knight_dialer;
+package _07_dynamic_programming.bottom_up.knight_dialer;
 
 import java.util.HashMap;
 import java.util.Map;

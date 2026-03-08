@@ -1,4 +1,4 @@
-package fraction_to_decimal;
+package _01_arrays_and_strings.fraction_to_decimal;
 
 public class Solution {
     public static void main(String [] args){

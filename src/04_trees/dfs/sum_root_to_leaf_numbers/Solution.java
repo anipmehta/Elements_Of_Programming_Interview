@@ -1,4 +1,4 @@
-package facebook_practice.sum_root_to_leaf_numbers;
+package _04_trees.dfs.sum_root_to_leaf_numbers;
 
 import util.TreeNode;
 

@@ -43,13 +43,13 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - For each problem folder in the new structure, verify its parent is a valid pattern/sub-pattern path from Requirement 1
     - **Validates: Requirements 2.1**
 
-- [ ] 3. Update Java package declarations and imports
-  - [ ] 3.1 Write a script to update `package` declarations in all `.java` files to match their new directory path relative to `src/`
+- [x] 3. Update Java package declarations and imports
+  - [x] 3.1 Write a script to update `package` declarations in all `.java` files to match their new directory path relative to `src/`
     - For each `.java` file under `src/` (excluding `util/`), replace the `package` line with the correct package derived from the file's directory path
     - If a `.java` file has no `package` declaration, insert one
     - _Requirements: 8.1_
 
-  - [ ] 3.2 Run the package update script and verify imports still resolve
+  - [x] 3.2 Run the package update script and verify imports still resolve
     - Since `util/` doesn't move, `import util.*` statements remain valid
     - Verify no cross-problem imports exist that need updating
     - _Requirements: 8.1, 8.2, 8.3_

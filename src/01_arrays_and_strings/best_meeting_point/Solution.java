@@ -1,4 +1,4 @@
-package best_meeting_point;
+package _01_arrays_and_strings.best_meeting_point;
 
 import util.Coordinate;
 import util.MatrixCoordinate;

@@ -1,4 +1,4 @@
-package analyze_user_website_3_seq_pattern;
+package _01_arrays_and_strings.analyze_user_website_3_seq_pattern;
 
 import java.util.*;
 

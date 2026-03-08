@@ -1,4 +1,4 @@
-package reconstruct_itinerary;
+package _05_graphs.dfs_bfs.reconstruct_itinerary;
 
 import java.util.*;
 

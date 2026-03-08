@@ -1,4 +1,4 @@
-package microsoft_preparation.populating_next_right_pointer;
+package _04_trees.bfs.populating_next_right_pointer;
 
 import java.util.LinkedList;
 import java.util.Queue;

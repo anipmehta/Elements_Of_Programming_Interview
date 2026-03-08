@@ -1,4 +1,4 @@
-package find_ideal_block_for_an_apartment;
+package _01_arrays_and_strings.prefix_sum.find_ideal_block_for_an_apartment;
 
 import java.lang.reflect.Array;
 import java.util.*;

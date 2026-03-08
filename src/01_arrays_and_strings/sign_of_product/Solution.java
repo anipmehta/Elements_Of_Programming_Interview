@@ -1,4 +1,4 @@
-package microsoft_preparation.sign_of_product;
+package _01_arrays_and_strings.sign_of_product;
 
 public class Solution {
     public static void main(String [] args){

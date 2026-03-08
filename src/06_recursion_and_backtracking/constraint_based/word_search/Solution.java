@@ -1,4 +1,4 @@
-package microsoft_preparation.word_search;
+package _06_recursion_and_backtracking.constraint_based.word_search;
 
 import java.util.Arrays;
 import java.util.HashSet;

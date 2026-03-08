@@ -1,4 +1,4 @@
-package goldman_sachs.wildcard_matching;
+package _07_dynamic_programming.memoization.wildcard_matching;
 
 public class Solution {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package google_code_sample_water_plants;
+package _01_arrays_and_strings.two_pointers.google_code_sample_water_plants;
 
 public class Solution {
     public static void main(String [] args){

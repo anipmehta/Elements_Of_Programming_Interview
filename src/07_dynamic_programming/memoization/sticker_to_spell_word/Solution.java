@@ -1,4 +1,4 @@
-package sticker_to_spell_word;
+package _07_dynamic_programming.memoization.sticker_to_spell_word;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package island_perimeter;
+package _05_graphs.dfs_bfs.island_perimeter;
 
 public class Solution {
     public static void main(String [] args){

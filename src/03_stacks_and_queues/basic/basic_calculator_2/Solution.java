@@ -1,4 +1,4 @@
-package microsoft_preparation.basic_calculator_2;
+package _03_stacks_and_queues.basic.basic_calculator_2;
 
 import java.util.Stack;
 

@@ -1,4 +1,4 @@
-package shuffle_string_with_no_2_char_same;
+package _09_heaps_and_priority_queues.shuffle_string_with_no_2_char_same;
 
 import java.util.Comparator;
 import java.util.HashMap;

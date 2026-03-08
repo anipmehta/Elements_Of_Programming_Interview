@@ -1,4 +1,4 @@
-package facebook_practice.first_and_last_position;
+package _08_binary_search.first_and_last_position;
 
 public class Solution {
     public static void main(String [] args){
