@@ -1,0 +1,927 @@
+{
+  "airbnb_host_max_accomodation": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "bottom_up",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/house-robber/"
+  },
+  "alien_dictionary": {
+    "pattern": "05_graphs",
+    "subPattern": "topological_sort",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/alien-dictionary/"
+  },
+  "amazon_oa_2020_Jul": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [
+      "Amazon"
+    ],
+    "sourceUrl": "TBD"
+  },
+  "analyze_user_website_3_seq_pattern": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/analyze-user-website-visit-pattern/"
+  },
+  "array_of_intersection": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/intersection-of-two-arrays-ii/"
+  },
+  "average_of_levels_in_binary_tree": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/average-of-levels-in-binary-tree/"
+  },
+  "before_after_puzzle_clutter": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/before-and-after-puzzle/"
+  },
+  "best_meeting_point": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/best-meeting-point/"
+  },
+  "binary_tree_camera": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-cameras/"
+  },
+  "binary_tree_right_side_view": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-right-side-view/"
+  },
+  "boundary_of_binary_tree": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/boundary-of-binary-tree/"
+  },
+  "building_with_an_ocean_view": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "monotonic_stack",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/buildings-with-an-ocean-view/"
+  },
+  "campus_bikes": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/campus-bikes/"
+  },
+  "clutter_classify_shortest_edges_in_weighted_graph": {
+    "pattern": "05_graphs",
+    "subPattern": "shortest_path",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "TBD"
+  },
+  "coin_path": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/coin-path/"
+  },
+  "compute_enclosed_regions": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/surrounded-regions/"
+  },
+  "count_good_nodes_in_tree": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/"
+  },
+  "delete_nodes_and_return_forest": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/delete-nodes-and-return-forest/"
+  },
+  "design_search_autocomplete_system": {
+    "pattern": "10_tries",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/design-search-autocomplete-system/"
+  },
+  "escape_a_large_maze": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/escape-a-large-maze/"
+  },
+  "find_ideal_block_for_an_apartment": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "prefix_sum",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "TBD"
+  },
+  "fraction_to_decimal": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/fraction-to-recurring-decimal/"
+  },
+  "goat_latin": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/goat-latin/"
+  },
+  "google_code_sample_domino_rotation": {
+    "pattern": "12_greedy",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/"
+  },
+  "google_code_sample_q1": {
+    "pattern": "12_greedy",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/"
+  },
+  "google_code_sample_q2": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "two_pointers",
+    "difficulty": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/watering-plants-ii/"
+  },
+  "google_code_sample_water_plants": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "two_pointers",
+    "difficulty": "Medium",
+    "companies": [
+      "Google"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/watering-plants-ii/"
+  },
+  "is_my_restaurant_first_come_first_serve": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "TBD"
+  },
+  "island_perimeter": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/island-perimeter/"
+  },
+  "jump_game": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/jump-game-iii/"
+  },
+  "k_closest_points_to_origin": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/k-closest-points-to-origin/"
+  },
+  "lca_with_parent": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/"
+  },
+  "longest_substring_with_k_dsitinct": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "sliding_window",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+  },
+  "lowest_common_ancesstor": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+  },
+  "maximum_performance_of_team": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/maximum-performance-of-a-team/"
+  },
+  "meeting_rooms_II": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/"
+  },
+  "merge_k_sorted": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  "min_deletions_to_make_frequency_of_each_letter_unique": {
+    "pattern": "12_greedy",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/"
+  },
+  "min_depth_of_binary_tree": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/minimum-depth-of-binary-tree/"
+  },
+  "min_window_substring": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "sliding_window",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/"
+  },
+  "minesweeper_game": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/minesweeper/"
+  },
+  "minimum_remove_valid_parentheses": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "basic",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/"
+  },
+  "odd_even_jump": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "bottom_up",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/odd-even-jump/"
+  },
+  "paint_a_boolean_matrix": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/flood-fill/"
+  },
+  "pass_through_circles": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "TBD"
+  },
+  "random_index": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/random-pick-index/"
+  },
+  "range_sum_bst": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/range-sum-of-bst/"
+  },
+  "reconstruct_itinerary": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/reconstruct-itinerary/"
+  },
+  "remove_invalid_parenthesis": {
+    "pattern": "06_recursion_and_backtracking",
+    "subPattern": "constraint_based",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/remove-invalid-parentheses/"
+  },
+  "reorder_list": {
+    "pattern": "02_linked_lists",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/reorder-list/"
+  },
+  "robot_in_a_maze": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "TBD"
+  },
+  "shuffle_string_with_no_2_char_same": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/reorganize-string/"
+  },
+  "single_row_keyboard": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/single-row-keyboard/"
+  },
+  "snapshot_array": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/snapshot-array/"
+  },
+  "sparse_vector": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/dot-product-of-two-sparse-vectors/"
+  },
+  "sticker_to_spell_word": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/stickers-to-spell-word/"
+  },
+  "swim_in_rising_water": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/swim-in-rising-water/"
+  },
+  "tic_tac_toe": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/design-tic-tac-toe/"
+  },
+  "twitter_coding_challenge": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Twitter"
+    ],
+    "sourceUrl": "TBD"
+  },
+  "unique_letter_string_msft": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "bottom_up",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/"
+  },
+  "word_break_2": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/word-break-ii/"
+  },
+  "word_ladder": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Hard",
+    "companies": [],
+    "sourceUrl": "https://leetcode.com/problems/word-ladder-ii/"
+  },
+  "facebook_practice/find_all_anagrams_in_a_string": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "sliding_window",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/find-all-anagrams-in-a-string/"
+  },
+  "facebook_practice/first_and_last_position": {
+    "pattern": "08_binary_search",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+  },
+  "facebook_practice/is_valid_bst": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/validate-binary-search-tree/"
+  },
+  "facebook_practice/k_closest_elements": {
+    "pattern": "08_binary_search",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/find-k-closest-elements/"
+  },
+  "facebook_practice/knight_dialer": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "bottom_up",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/knight-dialer/"
+  },
+  "facebook_practice/lru_cache": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/lru-cache/"
+  },
+  "facebook_practice/merge_k_lists": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  "facebook_practice/remove_comments": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/remove-comments/"
+  },
+  "facebook_practice/serialize_and_deserialize": {
+    "pattern": "04_trees",
+    "subPattern": "construction",
+    "difficulty": "Hard",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+  },
+  "facebook_practice/sum_root_to_leaf_numbers": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sum-root-to-leaf-numbers/"
+  },
+  "facebook_practice/target_sum": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/target-sum/"
+  },
+  "facebook_practice/three_sum": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "two_pointers",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/3sum/"
+  },
+  "facebook_practice/top_k_frequent_elements": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/top-k-frequent-elements/"
+  },
+  "facebook_practice/walls_and_gates": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Facebook"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/walls-and-gates/"
+  },
+  "doordash/course_schedule_II": {
+    "pattern": "05_graphs",
+    "subPattern": "topological_sort",
+    "difficulty": "Medium",
+    "companies": [
+      "DoorDash"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/course-schedule-ii/"
+  },
+  "doordash/employee_free_time": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [
+      "DoorDash"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/employee-free-time/"
+  },
+  "doordash/longest_path_duplicate_numbers": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "DoorDash"
+    ],
+    "sourceUrl": "https://leetcode.com/discuss/interview-question/392780/Doordash-or-Phone-Screen-or-Longest-path-duplicate-numbers-within-a-Matrix"
+  },
+  "doordash/validate_order_path": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "DoorDash"
+    ],
+    "sourceUrl": "https://leetcode.com/discuss/interview-question/846916/Validate-Orders-Path-(Doordash)"
+  },
+  "goldman_sachs/wildcard_matching": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Hard",
+    "companies": [
+      "Goldman Sachs"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/wildcard-matching/"
+  },
+  "warner_bros_discovery/largest_perimeter": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Warner Bros Discovery"
+    ],
+    "sourceUrl": "TBD"
+  },
+  "palantir/src/merge_k_sorted_ll": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [
+      "Palantir"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/merge-k-sorted-lists/"
+  },
+  "geli_take_home": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Geli"
+    ],
+    "sourceUrl": "TBD"
+  },
+  "microsoft_preparation/basic_calculator_2": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "basic",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/basic-calculator-ii/"
+  },
+  "microsoft_preparation/binary_tree_inorder_traversal": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Easy",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+  },
+  "microsoft_preparation/binary_tree_next_pointer": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+  },
+  "microsoft_preparation/course_schedule": {
+    "pattern": "05_graphs",
+    "subPattern": "topological_sort",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/course-schedule/"
+  },
+  "microsoft_preparation/group_anagrams": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/group-anagrams/"
+  },
+  "microsoft_preparation/keys_and_room": {
+    "pattern": "05_graphs",
+    "subPattern": "dfs_bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/keys-and-rooms/"
+  },
+  "microsoft_preparation/lca_of_binary_tree": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+  },
+  "microsoft_preparation/lca_of_bst": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+  },
+  "microsoft_preparation/level_order_traversal": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+  },
+  "microsoft_preparation/max_sliding_window": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  "microsoft_preparation/median_in_data_stream": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/find-median-from-data-stream/"
+  },
+  "microsoft_preparation/meeting_rooms_ii": {
+    "pattern": "09_heaps_and_priority_queues",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/meeting-rooms-ii/"
+  },
+  "microsoft_preparation/min_deletions_to_make_char_freq_unique": {
+    "pattern": "12_greedy",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/"
+  },
+  "microsoft_preparation/minimum_window_substring": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "sliding_window",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/minimum-window-substring/"
+  },
+  "microsoft_preparation/n_array_tree_level_order_traversal": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/n-ary-tree-level-order-traversal/"
+  },
+  "microsoft_preparation/n_queens": {
+    "pattern": "06_recursion_and_backtracking",
+    "subPattern": "constraint_based",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/n-queens/"
+  },
+  "microsoft_preparation/populating_next_right_pointer": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/"
+  },
+  "microsoft_preparation/sign_of_product": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sign-of-the-product-of-an-array/"
+  },
+  "microsoft_preparation/simplify_path": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "basic",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/simplify-path/"
+  },
+  "microsoft_preparation/sliding_window_maximum": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "monotonic_stack",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sliding-window-maximum/"
+  },
+  "microsoft_preparation/snake_game": {
+    "pattern": "11_design",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/design-snake-game/"
+  },
+  "microsoft_preparation/sort_colors": {
+    "pattern": "01_arrays_and_strings",
+    "subPattern": "two_pointers",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sort-colors/"
+  },
+  "microsoft_preparation/sqrt": {
+    "pattern": "08_binary_search",
+    "subPattern": null,
+    "difficulty": "Easy",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sqrtx/"
+  },
+  "microsoft_preparation/sudoku_solver": {
+    "pattern": "06_recursion_and_backtracking",
+    "subPattern": "constraint_based",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/sudoku-solver/"
+  },
+  "microsoft_preparation/swap_adjacent_linked_list_nodes": {
+    "pattern": "02_linked_lists",
+    "subPattern": null,
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/swap-nodes-in-pairs/"
+  },
+  "microsoft_preparation/target_sum": {
+    "pattern": "07_dynamic_programming",
+    "subPattern": "memoization",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/target-sum/"
+  },
+  "microsoft_preparation/transform_ab_ba_msft_ots": {
+    "pattern": "03_stacks_and_queues",
+    "subPattern": "basic",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "TBD"
+  },
+  "microsoft_preparation/vertical_order_tree_traversal": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Hard",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+  },
+  "microsoft_preparation/visible_nodes": {
+    "pattern": "04_trees",
+    "subPattern": "dfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/count-good-nodes-in-binary-tree/"
+  },
+  "microsoft_preparation/word_search": {
+    "pattern": "06_recursion_and_backtracking",
+    "subPattern": "constraint_based",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/word-search/"
+  },
+  "microsoft_preparation/zig_zag_level_traversal": {
+    "pattern": "04_trees",
+    "subPattern": "bfs",
+    "difficulty": "Medium",
+    "companies": [
+      "Microsoft"
+    ],
+    "sourceUrl": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+  }
+}
