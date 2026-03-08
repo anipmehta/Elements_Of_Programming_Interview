@@ -1,4 +1,4 @@
-package microsoft_preparation.visible_nodes;
+package _04_trees.dfs.visible_nodes;
 
 public class Solution {
     class Tree {

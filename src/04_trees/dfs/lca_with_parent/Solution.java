@@ -1,4 +1,4 @@
-package lca_with_parent;
+package _04_trees.dfs.lca_with_parent;
 
 import java.util.HashSet;
 import java.util.Set;

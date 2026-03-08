@@ -1,4 +1,4 @@
-package microsoft_preparation.lca_of_binary_tree;
+package _04_trees.dfs.lca_of_binary_tree;
 
 import util.TreeNode;
 

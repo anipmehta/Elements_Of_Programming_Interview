@@ -1,4 +1,4 @@
-package minimum_remove_valid_parentheses;
+package _03_stacks_and_queues.basic.minimum_remove_valid_parentheses;
 
 import java.util.ArrayList;
 import java.util.HashSet;

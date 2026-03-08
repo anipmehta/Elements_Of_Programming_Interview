@@ -1,4 +1,4 @@
-package minesweeper_game;
+package _05_graphs.dfs_bfs.minesweeper_game;
 
 import util.Coordinate;
 import util.GridHelper;

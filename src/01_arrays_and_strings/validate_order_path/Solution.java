@@ -1,4 +1,4 @@
-package doordash.validate_order_path;
+package _01_arrays_and_strings.validate_order_path;
 
 import java.util.*;
 

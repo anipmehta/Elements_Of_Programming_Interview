@@ -1,4 +1,4 @@
-package average_of_levels_in_binary_tree;
+package _04_trees.bfs.average_of_levels_in_binary_tree;
 
 import util.TreeNode;
 

@@ -1,4 +1,4 @@
-package binary_tree_camera;
+package _04_trees.dfs.binary_tree_camera;
 
 import util.TreeNode;
 

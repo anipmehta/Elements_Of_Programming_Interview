@@ -1,4 +1,4 @@
-package array_of_intersection;
+package _01_arrays_and_strings.array_of_intersection;
 
 import java.util.*;
 

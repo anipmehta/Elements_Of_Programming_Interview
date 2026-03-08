@@ -1,4 +1,4 @@
-package facebook_practice.remove_comments;
+package _01_arrays_and_strings.remove_comments;
 
 import java.util.ArrayList;
 import java.util.List;

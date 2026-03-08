@@ -1,4 +1,4 @@
-package microsoft_preparation.zig_zag_level_traversal;
+package _04_trees.bfs.zig_zag_level_traversal;
 
 import util.TreeNode;
 

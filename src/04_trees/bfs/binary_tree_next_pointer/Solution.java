@@ -1,4 +1,4 @@
-package microsoft_preparation.binary_tree_next_pointer;
+package _04_trees.bfs.binary_tree_next_pointer;
 
 import java.util.LinkedList;
 import java.util.Queue;

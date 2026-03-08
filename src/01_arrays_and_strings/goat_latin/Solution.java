@@ -1,4 +1,4 @@
-package goat_latin;
+package _01_arrays_and_strings.goat_latin;
 
 import java.util.*;
 

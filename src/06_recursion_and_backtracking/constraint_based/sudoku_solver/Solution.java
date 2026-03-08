@@ -1,4 +1,4 @@
-package microsoft_preparation.sudoku_solver;
+package _06_recursion_and_backtracking.constraint_based.sudoku_solver;
 
 public class Solution {
     public static void main(String[] args) {

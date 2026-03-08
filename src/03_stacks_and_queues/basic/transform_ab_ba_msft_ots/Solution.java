@@ -1,4 +1,4 @@
-package microsoft_preparation.transform_ab_ba_msft_ots;
+package _03_stacks_and_queues.basic.transform_ab_ba_msft_ots;
 
 import java.util.HashSet;
 import java.util.Set;

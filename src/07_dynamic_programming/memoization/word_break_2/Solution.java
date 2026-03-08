@@ -1,4 +1,4 @@
-package word_break_2;
+package _07_dynamic_programming.memoization.word_break_2;
 
 import java.util.ArrayList;
 import java.util.List;

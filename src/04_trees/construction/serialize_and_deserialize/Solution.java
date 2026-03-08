@@ -1,4 +1,4 @@
-package facebook_practice.serialize_and_deserialize;
+package _04_trees.construction.serialize_and_deserialize;
 
 import util.TreeNode;
 

@@ -1,6 +1,6 @@
-package facebook_practice.merge_k_lists;
+package _09_heaps_and_priority_queues.merge_k_lists;
 
-import microsoft_preparation.swap_adjacent_linked_list_nodes.ListNode;
+import _02_linked_lists.swap_adjacent_linked_list_nodes.ListNode;
 
 import java.util.Comparator;
 import java.util.List;

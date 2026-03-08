@@ -1,4 +1,4 @@
-package snapshot_array;
+package _11_design.snapshot_array;
 
 import java.util.*;
 

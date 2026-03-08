@@ -1,4 +1,4 @@
-package unique_letter_string_msft;
+package _07_dynamic_programming.bottom_up.unique_letter_string_msft;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package facebook_practice.is_valid_bst;
+package _04_trees.dfs.is_valid_bst;
 
 import util.TreeNode;
 

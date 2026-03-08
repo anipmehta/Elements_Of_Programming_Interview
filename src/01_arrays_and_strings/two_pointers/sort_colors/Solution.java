@@ -1,4 +1,4 @@
-package microsoft_preparation.sort_colors;
+package _01_arrays_and_strings.two_pointers.sort_colors;
 
 public class Solution {
     public static void main(String [] args){

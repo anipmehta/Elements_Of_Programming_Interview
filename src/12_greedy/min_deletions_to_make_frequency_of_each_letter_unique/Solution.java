@@ -1,4 +1,4 @@
-package min_deletions_to_make_frequency_of_each_letter_unique;
+package _12_greedy.min_deletions_to_make_frequency_of_each_letter_unique;
 
 import java.util.*;
 

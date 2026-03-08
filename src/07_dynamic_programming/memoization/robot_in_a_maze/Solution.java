@@ -1,4 +1,4 @@
-package robot_in_a_maze;
+package _07_dynamic_programming.memoization.robot_in_a_maze;
 
 import java.util.Arrays;
 

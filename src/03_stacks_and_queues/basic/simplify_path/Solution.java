@@ -1,4 +1,4 @@
-package microsoft_preparation.simplify_path;
+package _03_stacks_and_queues.basic.simplify_path;
 
 import java.util.HashSet;
 import java.util.Stack;

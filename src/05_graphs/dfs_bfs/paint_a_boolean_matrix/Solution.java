@@ -1,4 +1,4 @@
-package paint_a_boolean_matrix;
+package _05_graphs.dfs_bfs.paint_a_boolean_matrix;
 
 import util.MatrixCoordinate;
 import util.GridHelper;

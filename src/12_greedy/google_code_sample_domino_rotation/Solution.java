@@ -1,4 +1,4 @@
-package google_code_sample_domino_rotation;
+package _12_greedy.google_code_sample_domino_rotation;
 
 public class Solution {
     public static void main(String [] args){

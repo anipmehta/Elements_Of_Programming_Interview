@@ -1,4 +1,4 @@
-package microsoft_preparation.vertical_order_tree_traversal;
+package _04_trees.bfs.vertical_order_tree_traversal;
 
 import util.TreeNode;
 

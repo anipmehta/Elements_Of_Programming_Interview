@@ -1,4 +1,4 @@
-package alien_dictionary;
+package _05_graphs.topological_sort.alien_dictionary;
 
 import java.util.*;
 

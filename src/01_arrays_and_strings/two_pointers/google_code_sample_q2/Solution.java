@@ -1,4 +1,4 @@
-package google_code_sample_q2;
+package _01_arrays_and_strings.two_pointers.google_code_sample_q2;
 
 public class Solution {
     public static void main(String [] args){

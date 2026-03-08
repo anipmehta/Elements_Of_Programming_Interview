@@ -1,4 +1,4 @@
-package swim_in_rising_water;
+package _09_heaps_and_priority_queues.swim_in_rising_water;
 
 import java.util.Comparator;
 import java.util.LinkedList;

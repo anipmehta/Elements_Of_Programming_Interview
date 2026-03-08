@@ -1,4 +1,4 @@
-package facebook_practice.lru_cache;
+package _11_design.lru_cache;
 
 public class Solution {
     public static void main(String [] args){

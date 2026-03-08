@@ -1,4 +1,4 @@
-package before_after_puzzle_clutter;
+package _01_arrays_and_strings.before_after_puzzle_clutter;
 
 import java.util.*;
 

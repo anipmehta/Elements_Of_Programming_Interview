@@ -1,4 +1,4 @@
-package facebook_practice.k_closest_elements;
+package _08_binary_search.k_closest_elements;
 
 import java.util.*;
 

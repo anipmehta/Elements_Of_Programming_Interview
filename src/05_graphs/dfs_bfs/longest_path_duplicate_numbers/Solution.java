@@ -1,4 +1,4 @@
-package doordash.longest_path_duplicate_numbers;
+package _05_graphs.dfs_bfs.longest_path_duplicate_numbers;
 
 import java.util.List;
 

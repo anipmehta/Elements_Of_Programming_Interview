@@ -1,4 +1,4 @@
-package microsoft_preparation.keys_and_room;
+package _05_graphs.dfs_bfs.keys_and_room;
 
 import java.util.HashSet;
 import java.util.List;

@@ -1,4 +1,4 @@
-package k_closest_points_to_origin;
+package _09_heaps_and_priority_queues.k_closest_points_to_origin;
 
 
 import java.util.Comparator;

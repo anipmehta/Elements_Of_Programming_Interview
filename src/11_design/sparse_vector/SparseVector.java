@@ -1,4 +1,4 @@
-package sparse_vector;
+package _11_design.sparse_vector;
 
 import java.util.HashMap;
 import java.util.Map;

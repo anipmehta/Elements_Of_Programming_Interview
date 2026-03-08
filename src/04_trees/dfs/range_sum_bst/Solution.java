@@ -1,4 +1,4 @@
-package range_sum_bst;
+package _04_trees.dfs.range_sum_bst;
 
 import util.TreeNode;
 

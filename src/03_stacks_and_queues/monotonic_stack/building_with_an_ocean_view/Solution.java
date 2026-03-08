@@ -1,4 +1,4 @@
-package building_with_an_ocean_view;
+package _03_stacks_and_queues.monotonic_stack.building_with_an_ocean_view;
 
 import java.util.ArrayList;
 import java.util.List;

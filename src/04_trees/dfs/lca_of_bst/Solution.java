@@ -1,4 +1,4 @@
-package microsoft_preparation.lca_of_bst;
+package _04_trees.dfs.lca_of_bst;
 
 import util.TreeNode;
 

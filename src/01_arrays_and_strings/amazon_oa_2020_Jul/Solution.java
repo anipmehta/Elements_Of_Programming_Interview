@@ -1,4 +1,4 @@
-package amazon_oa_2020_Jul;
+package _01_arrays_and_strings.amazon_oa_2020_Jul;
 
 import java.util.*;
 

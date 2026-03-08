@@ -1,4 +1,4 @@
-package lowest_common_ancesstor;
+package _04_trees.dfs.lowest_common_ancesstor;
 
 import util.TreeNode;
 

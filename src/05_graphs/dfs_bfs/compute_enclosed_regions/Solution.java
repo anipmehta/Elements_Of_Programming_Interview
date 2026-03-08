@@ -1,4 +1,4 @@
-package compute_enclosed_regions;
+package _05_graphs.dfs_bfs.compute_enclosed_regions;
 
 import util.Coordinate;
 import util.MatrixCoordinate;

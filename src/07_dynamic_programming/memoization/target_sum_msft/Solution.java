@@ -1,4 +1,4 @@
-package microsoft_preparation.target_sum;
+package _07_dynamic_programming.memoization.target_sum_msft;
 
 public class Solution {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package microsoft_preparation.n_array_tree_level_order_traversal;
+package _04_trees.bfs.n_array_tree_level_order_traversal;
 
 import util.TreeNode;
 

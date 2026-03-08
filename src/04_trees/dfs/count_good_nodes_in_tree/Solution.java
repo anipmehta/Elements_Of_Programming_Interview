@@ -1,4 +1,4 @@
-package count_good_nodes_in_tree;
+package _04_trees.dfs.count_good_nodes_in_tree;
 
 import util.TreeNode;
 

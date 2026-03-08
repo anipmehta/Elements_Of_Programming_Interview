@@ -1,4 +1,4 @@
-package odd_even_jump;
+package _07_dynamic_programming.bottom_up.odd_even_jump;
 
 import java.util.*;
 

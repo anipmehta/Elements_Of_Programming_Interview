@@ -1,4 +1,4 @@
-package tic_tac_toe;
+package _11_design.tic_tac_toe;
 
 import util.GridHelper;
 import java.util.Random;

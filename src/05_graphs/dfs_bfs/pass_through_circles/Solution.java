@@ -1,4 +1,4 @@
-package pass_through_circles;
+package _05_graphs.dfs_bfs.pass_through_circles;
 
 import util.Circle;
 

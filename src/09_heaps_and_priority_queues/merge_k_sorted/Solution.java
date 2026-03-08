@@ -1,4 +1,4 @@
-package merge_k_sorted;
+package _09_heaps_and_priority_queues.merge_k_sorted;
 
 import java.util.*;
 

@@ -1,4 +1,4 @@
-package is_my_restaurant_first_come_first_serve;
+package _01_arrays_and_strings.is_my_restaurant_first_come_first_serve;
 
 public class Solution {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package microsoft_preparation.swap_adjacent_linked_list_nodes;
+package _02_linked_lists.swap_adjacent_linked_list_nodes;
 
 public class Solution {
     public static void main(String [] args){

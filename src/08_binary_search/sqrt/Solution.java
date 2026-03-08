@@ -1,4 +1,4 @@
-package microsoft_preparation.sqrt;
+package _08_binary_search.sqrt;
 
 import java.math.BigInteger;
 

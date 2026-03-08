@@ -1,4 +1,4 @@
-package escape_a_large_maze;
+package _05_graphs.dfs_bfs.escape_a_large_maze;
 
 import java.util.HashSet;
 import java.util.LinkedList;
