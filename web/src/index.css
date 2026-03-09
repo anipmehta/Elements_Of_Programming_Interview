@@ -103,6 +103,18 @@ a:hover {
   text-decoration: underline;
 }
 
+.solution-link {
+  font-size: 0.8rem;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.15s;
+}
+
+.solution-link:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
 /* Difficulty colors */
 td:nth-child(4) {
   font-weight: 600;

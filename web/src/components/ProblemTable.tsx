@@ -44,6 +44,16 @@ export default function ProblemTable({ problems }: ProblemTableProps) {
                 ) : (
                   p.name
                 )}
+                {" "}
+                <a
+                  href={`https://github.com/anipmehta/Elements_Of_Programming_Interview/tree/master/${p.path}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="solution-link"
+                  title="View solution on GitHub"
+                >
+                  📂
+                </a>
               </td>
               <td>{formatPattern(p.pattern)}</td>
               <td>{p.subPattern ?? "—"}</td>
