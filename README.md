@@ -201,3 +201,11 @@ Inspired by *Elements of Programming Interviews* (EPI), this project was born ou
 ## License
 
 MIT
+
+## Support
+
+If AlgoForge helped you land an interview or level up your skills, consider supporting the project:
+
+- [⭐ Star this repo](https://github.com/anipmehta/AlgoForge) — it helps others find it
+- [☕ Buy me a coffee](https://buymeacoffee.com/anipmehta) — fuel for more curated problems
+- [💬 Open an issue](https://github.com/anipmehta/AlgoForge/issues) — suggest problems, report bugs, or share feedback
