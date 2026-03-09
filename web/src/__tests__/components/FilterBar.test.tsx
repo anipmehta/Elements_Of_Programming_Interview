@@ -1,8 +1,8 @@
 import { describe, it, expect, vi } from "vitest";
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import FilterBar from "./FilterBar";
-import type { FilterState } from "../lib/types";
+import FilterBar from "../../components/FilterBar";
+import type { FilterState } from "../../lib/types";
 
 const defaultProps = {
   patterns: ["01_arrays_and_strings", "02_linked_lists"],

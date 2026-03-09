@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import ProblemTable from "./ProblemTable";
-import type { ProblemEntry } from "../lib/types";
+import ProblemTable from "../../components/ProblemTable";
+import type { ProblemEntry } from "../../lib/types";
 
 function makeProblem(overrides: Partial<ProblemEntry> = {}): ProblemEntry {
   return {

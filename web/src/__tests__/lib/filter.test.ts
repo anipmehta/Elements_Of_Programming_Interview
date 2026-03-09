@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
-import { applyFilters, extractPatterns, extractCompanies } from "./filter";
-import type { ProblemEntry, FilterState } from "./types";
+import { applyFilters, extractPatterns, extractCompanies } from "../../lib/filter";
+import type { ProblemEntry, FilterState } from "../../lib/types";
 
 function makeProblem(overrides: Partial<ProblemEntry> = {}): ProblemEntry {
   return {

@@ -1,6 +1,6 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import StatusBar from "./StatusBar";
+import StatusBar from "../../components/StatusBar";
 
 describe("StatusBar", () => {
   it("renders visible and total counts", () => {
