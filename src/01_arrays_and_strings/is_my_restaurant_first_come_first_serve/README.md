@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Easy |
+| **Companies** | — |
+| **Source** | TBD |
+
 I have two registers: one for take-out orders, and the other for the other folks eating inside the cafe. All the customer orders get combined into one list for the kitchen, where they should be handled first-come, first-served.
 
 Recently, some customers have been complaining that people who placed orders after them are getting their food first. Yikes—that's not good for business!

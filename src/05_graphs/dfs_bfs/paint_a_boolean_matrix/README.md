@@ -1,4 +1,11 @@
 ##Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/flood-fill/) |
+
 Given a 2d matrix where each cell is either of two different colors and a location of the cell (row,col).
 We have to paint the all the adjacent colors of the given cell by flipping the color of the current cell.
 The two cells are said to be adjacent of they are to the left, right, bottom or up to each other. 

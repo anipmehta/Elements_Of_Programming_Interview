@@ -1,5 +1,12 @@
 ##Problem Statement:
 
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/delete-nodes-and-return-forest/) |
+
+
 Given the root of a binary tree, each node in the tree has a distinct value.
 
 After deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).

@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Hard |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/design-search-autocomplete-system/) |
+
 Design a search autocomplete system for a search engine. Users may input a sentence (at least one word and end with a special character '#'). For each character they type except '#', you need to return the top 3 historical hot sentences that have prefix the same as the part of sentence already typed. Here are the specific rules:
 
 The hot degree for a sentence is defined as the number of times a user typed the exactly same sentence before.

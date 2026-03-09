@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | Microsoft |
+| **Source** | [LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) |
+
 https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/
 #### Assumptions:
 Input String only contains lowercase alphabetic char's

@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/) |
+
 Given a string s consisting of n lowercase letters, you have to delete the minimum number of characters from s so that every letter in s appears a unique number of times. We only care about the occurrences of letters that appear at least once in result.
 #### Assumptions:
 #### Example

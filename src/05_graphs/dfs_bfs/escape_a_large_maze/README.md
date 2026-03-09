@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Hard |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/escape-a-large-maze/) |
+
 In a 1 million by 1 million grid, the coordinates of each grid square are (x, y) with 0 <= x, y < 10^6.
 
 We start at the source square and want to reach the target square.  Each move, we can walk to a 4-directionally adjacent square in the grid that isn't in the given list of blocked squares.

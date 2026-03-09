@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/house-robber/) |
+
 You are provided a set of positive integers (an array of integers). Each integer represents a number of nights users request on Airbnb.com. If you are a host, you need to design and implement an algorithm to find out the maximum number of nights you can accommodate. The constraint is that you have to reserve at least one day between each request, so that you have time to clean the room.
 #### Assumptions:
 ```aidl

@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/k-closest-points-to-origin/) |
+
 https://leetcode.com/problems/k-closest-points-to-origin/
 #### Assumptions:
 #### Example

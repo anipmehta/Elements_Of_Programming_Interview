@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | — |
+| **Source** | [LeetCode](https://leetcode.com/problems/surrounded-regions/) |
+
 Let A be a 2D array whose entries are either W or B. Write a program that takes A, and replaces all W's that cannot reach the boundary with a B
 #### Intuition :
 Compute the complement of the desired result. Start from boundaries and look for W's and replace the all white neighbours as reachable.
