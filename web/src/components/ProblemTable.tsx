@@ -2,6 +2,8 @@ import type { ProblemEntry } from "../lib/types";
 
 interface ProblemTableProps {
   problems: ProblemEntry[];
+  completed: Set<string>;
+  onToggle: (name: string) => void;
 }
 
 /**
@@ -16,12 +18,13 @@ function formatPattern(raw: string): string {
     .join(" ");
 }
 
-export default function ProblemTable({ problems }: ProblemTableProps) {
+export default function ProblemTable({ problems, completed, onToggle }: ProblemTableProps) {
   return (
     <div className="table-container">
       <table>
         <thead>
           <tr>
+            <th>✓</th>
             <th>Name</th>
             <th>Pattern</th>
             <th>Sub-Pattern</th>
@@ -31,7 +34,15 @@ export default function ProblemTable({ problems }: ProblemTableProps) {
         </thead>
         <tbody>
           {problems.map((p) => (
-            <tr key={p.name}>
+            <tr key={p.name} className={completed.has(p.name) ? "completed-row" : ""}>
+              <td>
+                <input
+                  type="checkbox"
+                  checked={completed.has(p.name)}
+                  onChange={() => onToggle(p.name)}
+                  aria-label={`Mark ${p.name} as ${completed.has(p.name) ? "incomplete" : "complete"}`}
+                />
+              </td>
               <td>
                 {p.sourceUrl !== "TBD" ? (
                   <a
