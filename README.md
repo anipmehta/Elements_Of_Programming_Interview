@@ -1,11 +1,22 @@
-# Elements of Programming Interview — Pattern-Based Study Guide
+# 🔨 AlgoForge
 
-A collection of ~115 coding interview problems organized by algorithmic pattern.
-Work through patterns 01→12 for a structured study path.
+A curated, pattern-based coding interview study guide with 115 hand-picked problems, Java solutions, and an interactive progress tracker.
+
+## Why AlgoForge?
+
+Inspired by *Elements of Programming Interviews* (EPI), this project was born out of frustration with the "grind 3000 random problems" approach. Interview success comes from recognizing patterns, not memorizing solutions. AlgoForge organizes problems into 12 core algorithmic patterns — arrays, trees, graphs, DP, and more — in a deliberate study order where each pattern builds on the last.
+
+## What you get
+
+- **A structured curriculum** — 12 patterns, ordered from fundamentals to advanced, so you always know what to study next
+- **Curated problems** — 115 problems selected from real interviews at Amazon, Google, Microsoft, Meta, and others — no filler
+- **Real solutions** — every problem links to a working Java solution you can read, run, and learn from
+- **An interactive tracker** — filter by pattern, difficulty, or company, check off what you've solved, and watch your progress grow
+- **Company tags** — know which companies ask which problems, so you can target your prep
 
 ## Quick Links
 
-- [Interactive Study Tracker](https://anipmehta.github.io/AlgoForge/) — filter, track progress, and view stats
+- [🔨 AlgoForge Tracker](https://anipmehta.github.io/AlgoForge/) — interactive dashboard to filter, track, and study
 - [Company Index](COMPANY_INDEX.md) — problems grouped by company
 - [Problems JSON](problems.json) — machine-readable problem index
 
@@ -179,3 +190,14 @@ Work through patterns 01→12 for a structured study path.
 ---
 
 **Total: 115 problems**
+
+## Getting Started
+
+1. Visit the [AlgoForge Tracker](https://anipmehta.github.io/AlgoForge/) to browse problems with filters
+2. Work through patterns in order (01 → 12) for the best learning progression
+3. Each problem folder has a `README.md` with the problem statement and a `Solution.java` with the implementation
+4. Check off problems as you go — your progress is saved locally in the browser
+
+## License
+
+MIT
