@@ -95,7 +95,7 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - **Validates: Requirements 2.4**
 
 - [x] 6. Generate PATTERN.md files
-  - [-] 6.1 Write a script or create PATTERN.md files for each of the 12 pattern folders
+  - [x] 6.1 Write a script or create PATTERN.md files for each of the 12 pattern folders
     - Each PATTERN.md must include: description of the pattern, when to apply it (common problem signals), time/space complexity characteristics
     - For pattern folders with sub-patterns, include a sub-patterns section describing each sub-pattern and its relationship to the parent
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5_
@@ -110,8 +110,8 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - For every pattern folder that has sub-pattern folders, verify its PATTERN.md mentions each sub-pattern by name
     - **Validates: Requirements 4.5**
 
-- [ ] 7. Generate COMPANY_INDEX.md
-  - [ ] 7.1 Write a script that reads `classification.json`, groups problems by company, and generates `COMPANY_INDEX.md` at the repo root
+- [-] 7. Generate COMPANY_INDEX.md
+  - [-] 7.1 Write a script that reads `classification.json`, groups problems by company, and generates `COMPANY_INDEX.md` at the repo root
     - List companies in alphabetical order
     - Under each company heading, link to every associated problem folder
     - _Requirements: 5.1, 5.2, 5.3, 5.4_
