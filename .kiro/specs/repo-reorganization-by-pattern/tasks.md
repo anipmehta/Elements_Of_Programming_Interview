@@ -110,8 +110,8 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - For every pattern folder that has sub-pattern folders, verify its PATTERN.md mentions each sub-pattern by name
     - **Validates: Requirements 4.5**
 
-- [-] 7. Generate COMPANY_INDEX.md
-  - [-] 7.1 Write a script that reads `classification.json`, groups problems by company, and generates `COMPANY_INDEX.md` at the repo root
+- [x] 7. Generate COMPANY_INDEX.md
+  - [x] 7.1 Write a script that reads `classification.json`, groups problems by company, and generates `COMPANY_INDEX.md` at the repo root
     - List companies in alphabetical order
     - Under each company heading, link to every associated problem folder
     - _Requirements: 5.1, 5.2, 5.3, 5.4_
@@ -126,8 +126,8 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - Extract company headings from COMPANY_INDEX.md, verify they are in sorted order
     - **Validates: Requirements 5.4**
 
-- [ ] 8. Generate root README
-  - [ ] 8.1 Generate the root `README.md` with table of contents, study order, and progress tracker
+- [x] 8. Generate root README
+  - [x] 8.1 Generate the root `README.md` with table of contents, study order, and progress tracker
     - Include repository description and usage guide
     - List all 12 pattern folders in numbered order (01-12)
     - Under each pattern, list every problem as a markdown checkbox link (`- [ ] [problem_name](path)`)
@@ -140,8 +140,8 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - For every problem folder in the repo, verify a checkbox link exists in the root README
     - **Validates: Requirements 6.2, 6.4**
 
-- [ ] 9. Generate problems.json
-  - [ ] 9.1 Write a script that reads `classification.json` and generates `problems.json` at the repo root
+- [x] 9. Generate problems.json
+  - [x] 9.1 Write a script that reads `classification.json` and generates `problems.json` at the repo root
     - Output a JSON array with one object per problem: `name`, `pattern`, `subPattern`, `difficulty`, `companies`, `path`, `sourceUrl`
     - Validate the output is valid JSON
     - _Requirements: 7.1, 7.2, 7.4_
@@ -151,7 +151,7 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - Parse `problems.json`, verify each entry has all required fields, verify `path` corresponds to an actual directory, verify total count matches problem folder count
     - **Validates: Requirements 7.2, 7.4**
 
-- [ ] 10. Final checkpoint - Full verification
+- [x] 10. Final checkpoint - Full verification
   - Run `javac` compilation check on all `.java` files under `src/` to confirm no broken packages or imports
   - Verify all generated files exist (12 PATTERN.md files, COMPANY_INDEX.md, README.md, problems.json)
   - Ensure all tests pass, ask the user if questions arise.
