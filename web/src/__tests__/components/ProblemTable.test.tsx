@@ -56,7 +56,7 @@ describe("ProblemTable", () => {
     const solutionLink = screen.getByTitle("View solution on GitHub");
     expect(solutionLink).toHaveAttribute(
       "href",
-      "https://github.com/anipmehta/Elements_Of_Programming_Interview/tree/master/src/01_arrays_and_strings/two_sum"
+      "https://github.com/anipmehta/AlgoForge/tree/master/src/01_arrays_and_strings/two_sum"
     );
     expect(solutionLink).toHaveAttribute("target", "_blank");
   });

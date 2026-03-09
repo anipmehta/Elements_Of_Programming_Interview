@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Elements_Of_Programming_Interview/',
+  base: '/AlgoForge/',
   plugins: [react()],
   test: {
     environment: 'jsdom',
