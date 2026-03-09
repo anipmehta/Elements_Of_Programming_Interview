@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build a static React + Vite + TypeScript dashboard in `web/` that reads `problems.json` and provides filtering by pattern, difficulty, and company. Phase 1 covers stack setup, data loading, filtering, and GitHub Pages deployment. Phase 2 adds localStorage progress tracking and completion stats.
+Build a static React + Vite + TypeScript dashboard in `web/` that reads `problems.json` and provides filtering by pattern, difficulty, and company. Phase 1 covers stack setup, data loading, filtering, and UI components. Phase 2 covers GitHub Pages deployment. Phase 3 adds localStorage progress tracking and completion stats.
 
 ## Phase 1 Tasks
 
@@ -40,7 +40,7 @@ Build a static React + Vite + TypeScript dashboard in `web/` that reads `problem
     - **Property 3: Company extraction completeness** — `extractCompanies` returns sorted distinct company names from all companies arrays
     - **Validates: Requirements 4.1**
 
-- [-] 3. Checkpoint — Verify core logic
+- [x] 3. Checkpoint — Verify core logic
   - Ensure all tests pass, ask the user if questions arise.
 
 - [x] 4. Implement data fetching hook
@@ -92,69 +92,85 @@ Build a static React + Vite + TypeScript dashboard in `web/` that reads `problem
     - **Property 5: Source link rendering** — name rendered as hyperlink iff sourceUrl !== "TBD", link opens in new tab
     - **Validates: Requirements 6.1, 6.2**
 
-- [-] 7. Checkpoint — Phase 1 complete
+- [x] 7. Checkpoint — Phase 1 complete
   - Ensure all tests pass, ask the user if questions arise.
   - Verify the app builds with `npm run build` and all asset paths resolve correctly
   - Verify `problems.json` is included in the build output
 
-## Phase 2 Tasks (Deferred — Progress Tracking & Stats)
+## Phase 2 Tasks (GitHub Pages Deployment)
 
-- [ ] 8. Implement localStorage progress store
-  - [ ] 8.1 Create `src/lib/progressStore.ts`
+- [ ] 8. Set up GitHub Actions workflow for Pages deployment
+  - [ ] 8.1 Create `.github/workflows/deploy-pages.yml`
+    - Trigger on push to `master`
+    - Install Node deps and run `npm run build` in `web/`
+    - Deploy `web/dist/` to GitHub Pages using `actions/deploy-pages`
+    - _Requirements: 9.2, 9.3_
+  - [ ] 8.2 Verify deployment
+    - Confirm the site is live at `https://anipmehta.github.io/Elements_Of_Programming_Interview/`
+    - Verify `problems.json` loads correctly and filters work on the deployed site
+    - _Requirements: 9.3_
+
+- [ ] 9. Checkpoint — Phase 2 complete
+  - Site is live on GitHub Pages, auto-deploys on push to master
+
+## Phase 3 Tasks (Deferred — Progress Tracking & Stats)
+
+- [ ] 10. Implement localStorage progress store
+  - [ ] 10.1 Create `src/lib/progressStore.ts`
     - Implement `ProgressStore` interface: `getCompleted()`, `markCompleted(name)`, `markIncomplete(name)`
     - Store completed problem names as JSON array under key `study-tracker-completed` in localStorage
     - Handle localStorage unavailable: fall back to in-memory set, return a warning flag
     - Handle corrupted data: reset to empty set, return a warning flag
     - _Requirements: 7.2, 7.3, 7.4, 7.5_
-  - [ ]* 8.2 Write property test for ProgressStore round-trip
+  - [ ]* 10.2 Write property test for ProgressStore round-trip
     - **Property 6: ProgressStore round-trip** — for any sequence of markCompleted/markIncomplete operations, getCompleted returns exactly the names marked completed and not subsequently marked incomplete
     - **Validates: Requirements 7.2, 7.3, 7.4**
-  - [ ]* 8.3 Write unit tests for ProgressStore edge cases
+  - [ ]* 10.3 Write unit tests for ProgressStore edge cases
     - Test localStorage unavailable shows warning
     - Test corrupted localStorage data resets gracefully
     - _Requirements: 7.5_
 
-- [ ] 9. Add completion checkbox to ProblemTable
-  - [ ] 9.1 Extend `ProblemTable` to accept completion state and toggle callback
+- [ ] 11. Add completion checkbox to ProblemTable
+  - [ ] 11.1 Extend `ProblemTable` to accept completion state and toggle callback
     - Add a checkbox column to each row
     - On check: call `markCompleted(name)`, on uncheck: call `markIncomplete(name)`
     - On load: reflect saved completion state from `ProgressStore.getCompleted()`
     - _Requirements: 7.1, 7.2, 7.3, 7.4_
-  - [ ]* 9.2 Write unit tests for checkbox toggle behavior
+  - [ ]* 11.2 Write unit tests for checkbox toggle behavior
     - Test checking a problem persists to localStorage
     - Test unchecking removes from localStorage
     - _Requirements: 7.1, 7.2, 7.3_
 
-- [ ] 10. Implement StatsPanel component
-  - [ ] 10.1 Create `src/lib/stats.ts` with pure stats computation functions
+- [ ] 12. Implement StatsPanel component
+  - [ ] 12.1 Create `src/lib/stats.ts` with pure stats computation functions
     - Compute overall completion percentage
     - Compute per-pattern completion count and percentage
     - Compute per-difficulty completion count and percentage
     - _Requirements: 8.1, 8.2, 8.3_
-  - [ ]* 10.2 Write property test for stats computation
+  - [ ]* 12.2 Write property test for stats computation
     - **Property 7: Stats computation correctness** — overall percentage = completedCount/totalCount, per-pattern and per-difficulty counts match entries in completed set
     - **Validates: Requirements 8.1, 8.2, 8.3**
-  - [ ] 10.3 Create `src/components/StatsPanel.tsx`
+  - [ ] 12.3 Create `src/components/StatsPanel.tsx`
     - Display overall completion percentage
     - Display breakdown by pattern (count and percentage)
     - Display breakdown by difficulty (count and percentage)
     - Update immediately when completion state changes (no page reload)
     - _Requirements: 8.1, 8.2, 8.3, 8.4_
 
-- [ ] 11. Wire Phase 2 into App.tsx
-  - [ ] 11.1 Integrate ProgressStore and StatsPanel into App
+- [ ] 13. Wire Phase 3 into App.tsx
+  - [ ] 13.1 Integrate ProgressStore and StatsPanel into App
     - Initialize ProgressStore on mount, pass completion state to ProblemTable and StatsPanel
     - Display warning if localStorage is unavailable
     - _Requirements: 7.4, 7.5, 8.4_
 
-- [ ] 12. Final checkpoint — Phase 2 complete
+- [ ] 14. Final checkpoint — Phase 3 complete
   - Ensure all tests pass, ask the user if questions arise.
   - Verify localStorage persistence works across page reloads
 
 ## Notes
 
 - Tasks marked with `*` are optional and can be skipped for faster MVP
-- Phase 1 (tasks 1–7) should be completed first; Phase 2 (tasks 8–12) can be deferred
+- Phase 1 (tasks 1–7) should be completed first; Phase 2 (tasks 8–9) covers GitHub Pages deployment; Phase 3 (tasks 10–14) can be deferred
 - Each task references specific requirements for traceability
 - Property tests use fast-check and target pure logic in `lib/` (no DOM required)
 - Follow CLAUDE.md rules: feature branch, conventional commits, compile before committing

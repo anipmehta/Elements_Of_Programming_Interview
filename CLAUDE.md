@@ -20,6 +20,11 @@
 - Make sure all Java files compile before committing. Do not commit broken code.
 - Verify import paths are correct after moving or adding files.
 - Run any existing tests before pushing.
+- Every new line of code must have corresponding unit tests. Do not skip tests.
+
+## PR Descriptions
+
+- Always provide PR descriptions in markdown format.
 
 ## Project Structure
 
