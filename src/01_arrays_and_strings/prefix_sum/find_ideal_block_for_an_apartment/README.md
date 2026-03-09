@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Hard |
+| **Companies** | — |
+| **Source** | TBD |
+
 Given a data of blocks labelled from 1 to n, each block data contain the list of facilities that are in that block.
 Now given the list of some selected facilites find an ideal block where I should buy an apartment so that all the given facilities combined are at the min distance from my apartment's block.
 #### Assumptions:

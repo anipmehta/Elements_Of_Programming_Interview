@@ -1,4 +1,11 @@
 ## Problem Statement:
+
+| | |
+|---|---|
+| **Difficulty** | Hard |
+| **Companies** | Palantir |
+| **Source** | [LeetCode](https://leetcode.com/problems/merge-k-sorted-lists/) |
+
 ou are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
 #### Assumptions:
 [Given] Each list is sorted in ascending order

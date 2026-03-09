@@ -64,18 +64,18 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - For every `import` statement in every `.java` file, verify the target is a `java.*`/`javax.*` standard library import or corresponds to a valid class in `src/util/` or another problem folder
     - **Validates: Requirements 8.2, 8.3**
 
-- [ ] 4. Checkpoint - Verify migration integrity
+- [x] 4. Checkpoint - Verify migration integrity
   - Ensure all problem folders have been moved, Java files compile, and no files remain in old locations. Ask the user if questions arise.
 
-- [ ] 5. Inject README metadata tags
-  - [ ] 5.1 Write a script that reads `classification.json` and injects a metadata header table into each problem's `README.md`
+- [x] 5. Inject README metadata tags
+  - [x] 5.1 Write a script that reads `classification.json` and injects a metadata header table into each problem's `README.md`
     - Insert a table with Difficulty, Companies, and Source columns at the top of each README (after the `# Problem Name` heading)
     - Preserve all existing README content below the injected metadata block
     - For problems from company folders, include the Company_Tag
     - For problems without a known LeetCode URL, use `TBD` as placeholder
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
-  - [ ] 5.2 Run the metadata injection script across all problem READMEs
+  - [x] 5.2 Run the metadata injection script across all problem READMEs
     - _Requirements: 3.1, 3.2, 3.3, 3.4_
 
   - [ ]* 5.3 Write property test: README metadata completeness
@@ -94,8 +94,8 @@ Reorganize a Java coding interview practice repository (~70 problems) from a fla
     - Requires storing pre-migration snapshots before running migration
     - **Validates: Requirements 2.4**
 
-- [ ] 6. Generate PATTERN.md files
-  - [ ] 6.1 Write a script or create PATTERN.md files for each of the 12 pattern folders
+- [x] 6. Generate PATTERN.md files
+  - [-] 6.1 Write a script or create PATTERN.md files for each of the 12 pattern folders
     - Each PATTERN.md must include: description of the pattern, when to apply it (common problem signals), time/space complexity characteristics
     - For pattern folders with sub-patterns, include a sub-patterns section describing each sub-pattern and its relationship to the parent
     - _Requirements: 4.1, 4.2, 4.3, 4.4, 4.5_

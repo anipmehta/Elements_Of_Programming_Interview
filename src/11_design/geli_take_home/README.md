@@ -1,4 +1,11 @@
 ## Overview
+
+| | |
+|---|---|
+| **Difficulty** | Medium |
+| **Companies** | Geli |
+| **Source** | TBD |
+
 Take Home assignment for Geli.
 
 For requirements refer the attached TakeHomeAssignment.docx file
