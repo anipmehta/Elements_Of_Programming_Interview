@@ -71,7 +71,7 @@ describe("ProblemTable", () => {
   it("renders subPattern when present", () => {
     const problem = makeProblem({ subPattern: "sliding_window" });
     render(<ProblemTable problems={[problem]} {...defaultProps} />);
-    expect(screen.getByText("sliding_window")).toBeInTheDocument();
+    expect(screen.getByText("Sliding Window")).toBeInTheDocument();
   });
 
   it("renders companies joined by comma", () => {
@@ -91,6 +91,18 @@ describe("ProblemTable", () => {
     const problem = makeProblem({ pattern: "04_trees" });
     render(<ProblemTable problems={[problem]} {...defaultProps} />);
     expect(screen.getByText("Trees")).toBeInTheDocument();
+  });
+
+  it("renders pattern as link to PATTERN.md", () => {
+    const problem = makeProblem({ pattern: "04_trees" });
+    render(<ProblemTable problems={[problem]} {...defaultProps} />);
+    const link = screen.getByText("Trees");
+    expect(link.tagName).toBe("A");
+    expect(link).toHaveAttribute(
+      "href",
+      "https://github.com/anipmehta/AlgoForge/blob/master/src/04_trees/PATTERN.md"
+    );
+    expect(link).toHaveAttribute("target", "_blank");
   });
 
   it("renders empty tbody when no problems", () => {
