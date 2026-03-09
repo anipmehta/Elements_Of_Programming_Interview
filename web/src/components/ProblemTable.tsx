@@ -57,7 +57,7 @@ export default function ProblemTable({ problems, completed, onToggle }: ProblemT
                 )}
                 {" "}
                 <a
-                  href={`https://github.com/anipmehta/Elements_Of_Programming_Interview/tree/master/${p.path}`}
+                  href={`https://github.com/anipmehta/AlgoForge/tree/master/${p.path}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="solution-link"
