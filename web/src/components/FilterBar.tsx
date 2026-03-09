@@ -1,4 +1,5 @@
 import type { FilterState } from "../lib/types";
+import { formatPattern } from "../lib/format";
 
 interface FilterBarProps {
   patterns: string[];
@@ -6,18 +7,6 @@ interface FilterBarProps {
   companies: string[];
   filters: FilterState;
   onFilterChange: (filters: FilterState) => void;
-}
-
-/**
- * Strips the numeric prefix and formats a raw pattern string for display.
- * e.g. "01_arrays_and_strings" → "Arrays And Strings"
- */
-function formatPattern(raw: string): string {
-  const stripped = raw.replace(/^\d+_/, "");
-  return stripped
-    .split("_")
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
 }
 
 export default function FilterBar({

@@ -31,7 +31,7 @@ describe("FilterBar", () => {
 
   it("renders pattern options with formatted names", () => {
     render(<FilterBar {...defaultProps} />);
-    expect(screen.getByText("Arrays And Strings")).toBeInTheDocument();
+    expect(screen.getByText("Arrays & Strings")).toBeInTheDocument();
     expect(screen.getByText("Linked Lists")).toBeInTheDocument();
   });
 
