@@ -5,6 +5,7 @@ Work through patterns 01→12 for a structured study path.
 
 ## Quick Links
 
+- [Interactive Study Tracker](https://anipmehta.github.io/Elements_Of_Programming_Interview/) — filter, track progress, and view stats
 - [Company Index](COMPANY_INDEX.md) — problems grouped by company
 - [Problems JSON](problems.json) — machine-readable problem index
 
