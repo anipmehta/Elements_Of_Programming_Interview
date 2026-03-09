@@ -3,9 +3,11 @@ import "./index.css";
 import { useProblems } from "./hooks/useProblems";
 import { applyFilters, extractPatterns, extractCompanies } from "./lib/filter";
 import { createProgressStore } from "./lib/progressStore";
+import { computeOverall, computeByDifficulty, computeByPattern } from "./lib/stats";
 import type { FilterState } from "./lib/types";
 import FilterBar from "./components/FilterBar";
 import StatusBar from "./components/StatusBar";
+import StatsPanel from "./components/StatsPanel";
 import ProblemTable from "./components/ProblemTable";
 
 const DIFFICULTIES = ["Easy", "Medium", "Hard"];
@@ -39,6 +41,10 @@ export default function App() {
   const patterns = useMemo(() => extractPatterns(problems), [problems]);
   const companies = useMemo(() => extractCompanies(problems), [problems]);
 
+  const overall = useMemo(() => computeOverall(problems, completed), [problems, completed]);
+  const byDifficulty = useMemo(() => computeByDifficulty(problems, completed), [problems, completed]);
+  const byPattern = useMemo(() => computeByPattern(problems, completed), [problems, completed]);
+
   if (loading) {
     return <p>Loading problems...</p>;
   }
@@ -64,6 +70,7 @@ export default function App() {
         visibleCount={filteredProblems.length}
         totalCount={problems.length}
       />
+      <StatsPanel overall={overall} byDifficulty={byDifficulty} byPattern={byPattern} />
       <ProblemTable problems={filteredProblems} completed={completed} onToggle={handleToggle} />
     </div>
   );
