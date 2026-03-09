@@ -55,7 +55,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Study Tracker</h1>
+      <h1>🔨 AlgoForge</h1>
       {store.isMemoryFallback && (
         <p className="warning">localStorage unavailable — progress won't persist across reloads.</p>
       )}
