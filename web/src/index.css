@@ -253,3 +253,21 @@ td:first-child input[type="checkbox"] {
     flex-direction: column;
   }
 }
+
+/* Footer */
+.site-footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e0e0e0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.site-footer a {
+  color: #666;
+}
+
+.site-footer a:hover {
+  color: #2563eb;
+}

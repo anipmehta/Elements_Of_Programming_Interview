@@ -9,6 +9,7 @@ import FilterBar from "./components/FilterBar";
 import StatusBar from "./components/StatusBar";
 import StatsPanel from "./components/StatsPanel";
 import ProblemTable from "./components/ProblemTable";
+import Footer from "./components/Footer";
 
 const DIFFICULTIES = ["Easy", "Medium", "Hard"];
 const store = createProgressStore();
@@ -72,6 +73,7 @@ export default function App() {
       />
       <StatsPanel overall={overall} byDifficulty={byDifficulty} byPattern={byPattern} />
       <ProblemTable problems={filteredProblems} completed={completed} onToggle={handleToggle} />
+      <Footer />
     </div>
   );
 }
