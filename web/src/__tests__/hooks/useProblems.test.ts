@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from "vitest";
 import { renderHook, waitFor } from "@testing-library/react";
-import { useProblems } from "./useProblems";
-import type { ProblemEntry } from "../lib/types";
+import { useProblems } from "../../hooks/useProblems";
+import type { ProblemEntry } from "../../lib/types";
 
 const mockProblems: ProblemEntry[] = [
   {

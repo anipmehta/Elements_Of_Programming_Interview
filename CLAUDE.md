@@ -21,6 +21,7 @@
 - Verify import paths are correct after moving or adding files.
 - Run any existing tests before pushing.
 - Every new line of code must have corresponding unit tests. Do not skip tests.
+- Place test files in `__tests__/` folders mirroring the source structure, not co-located with source files.
 
 ## PR Descriptions
 
