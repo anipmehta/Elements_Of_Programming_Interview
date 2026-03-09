@@ -1,13 +1,15 @@
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
 import "./index.css";
 import { useProblems } from "./hooks/useProblems";
 import { applyFilters, extractPatterns, extractCompanies } from "./lib/filter";
+import { createProgressStore } from "./lib/progressStore";
 import type { FilterState } from "./lib/types";
 import FilterBar from "./components/FilterBar";
 import StatusBar from "./components/StatusBar";
 import ProblemTable from "./components/ProblemTable";
 
 const DIFFICULTIES = ["Easy", "Medium", "Hard"];
+const store = createProgressStore();
 
 export default function App() {
   const { problems, loading, error } = useProblems();
@@ -16,6 +18,18 @@ export default function App() {
     difficulty: null,
     company: null,
   });
+  const [completed, setCompleted] = useState<Set<string>>(() => store.getCompleted());
+
+  const handleToggle = useCallback((name: string) => {
+    setCompleted((prev) => {
+      if (prev.has(name)) {
+        store.markIncomplete(name);
+      } else {
+        store.markCompleted(name);
+      }
+      return store.getCompleted();
+    });
+  }, []);
 
   const filteredProblems = useMemo(
     () => applyFilters(problems, filters),
@@ -36,6 +50,9 @@ export default function App() {
   return (
     <div>
       <h1>Study Tracker</h1>
+      {store.isMemoryFallback && (
+        <p className="warning">localStorage unavailable — progress won't persist across reloads.</p>
+      )}
       <FilterBar
         patterns={patterns}
         difficulties={DIFFICULTIES}
@@ -47,7 +64,7 @@ export default function App() {
         visibleCount={filteredProblems.length}
         totalCount={problems.length}
       />
-      <ProblemTable problems={filteredProblems} />
+      <ProblemTable problems={filteredProblems} completed={completed} onToggle={handleToggle} />
     </div>
   );
 }
