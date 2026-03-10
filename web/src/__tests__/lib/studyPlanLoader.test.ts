@@ -1,7 +1,6 @@
 import { describe, it, expect } from "vitest";
 import fc from "fast-check";
-import { loadStudyPlans, computePlanProgress, isSectionComplete } from "../../lib/studyPlanLoader";
-import type { StudyPlan, PlanSection } from "../../lib/studyPlanTypes";
+import { loadStudyPlans } from "../../lib/studyPlanLoader";
 
 // Arbitraries for generating valid study plan data
 const planSectionArb = (validNames: string[]) =>

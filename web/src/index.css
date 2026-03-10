@@ -271,3 +271,259 @@ td:first-child input[type="checkbox"] {
 .site-footer a:hover {
   color: #2563eb;
 }
+
+/* View Navigation */
+.view-nav {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.view-nav-button {
+  background: none;
+  border: none;
+  padding: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #666;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.view-nav-button:hover {
+  color: #1a1a1a;
+}
+
+.view-nav-active {
+  color: #2563eb;
+  border-bottom-color: #2563eb;
+}
+
+/* Plan Selector */
+.plan-selector {
+  margin-bottom: 1.5rem;
+}
+
+.plan-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.plan-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: border-color 0.15s;
+}
+
+.plan-card:hover {
+  border-color: #bbb;
+}
+
+.plan-card-active {
+  border-color: #2563eb;
+  background: #f0f4ff;
+}
+
+.plan-card-name {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.plan-card-description {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+}
+
+.plan-card-author {
+  font-size: 0.8rem;
+  color: #888;
+  margin: 0;
+}
+
+.plan-card-tags {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.plan-card-tag {
+  font-size: 0.7rem;
+  padding: 0.1rem 0.45rem;
+  background: #e9ecef;
+  border-radius: 3px;
+  color: #555;
+}
+
+.plan-card-button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.plan-card-select {
+  background: #2563eb;
+  color: #fff;
+}
+
+.plan-card-select:hover {
+  background: #1d4ed8;
+}
+
+.plan-card-deactivate {
+  background: #e9ecef;
+  color: #555;
+}
+
+.plan-card-deactivate:hover {
+  background: #dee2e6;
+}
+
+/* Plan View */
+.plan-view {
+  margin-bottom: 1.5rem;
+}
+
+.plan-progress {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.plan-progress-bar-track {
+  height: 8px;
+  background: #e9ecef;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 0.35rem;
+}
+
+.plan-progress-bar-fill {
+  height: 100%;
+  background: #2563eb;
+  border-radius: 4px;
+  transition: width 0.2s;
+}
+
+.plan-progress-text {
+  font-size: 0.85rem;
+  color: #555;
+  margin: 0;
+}
+
+.plan-sections {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.plan-section {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.plan-section-header {
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.plan-section-focus {
+  font-weight: 400;
+  color: #555;
+}
+
+.plan-section-complete {
+  color: #28a745;
+}
+
+.plan-section-problems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.plan-problem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.25rem 0;
+  font-size: 0.85rem;
+}
+
+.plan-problem-label {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+}
+
+.plan-problem-label input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.plan-problem-name {
+  color: #1a1a1a;
+}
+
+.plan-problem-difficulty {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.1rem 0.4rem;
+  border-radius: 3px;
+}
+
+.plan-problem-difficulty-easy {
+  background: #d4edda;
+  color: #155724;
+}
+
+.plan-problem-difficulty-medium {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.plan-problem-difficulty-hard {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.plan-problem-pattern {
+  font-size: 0.75rem;
+  color: #888;
+}
+
+.plan-problem-link {
+  font-size: 0.75rem;
+  margin-left: auto;
+}
