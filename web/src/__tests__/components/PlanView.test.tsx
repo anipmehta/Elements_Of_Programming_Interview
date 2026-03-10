@@ -122,4 +122,14 @@ describe("PlanView", () => {
 
     expect(screen.getByText("2 / 2 completed (100%)")).toBeInTheDocument();
   });
+
+  it("links pattern name to PATTERN.md on GitHub", () => {
+    render(<PlanView {...defaultProps} />);
+
+    const patternLink = screen.getByRole("link", { name: "Arrays & Strings" });
+    expect(patternLink).toHaveAttribute(
+      "href",
+      "https://github.com/anipmehta/AlgoForge/blob/master/src/01_arrays_and_strings/PATTERN.md",
+    );
+  });
 });

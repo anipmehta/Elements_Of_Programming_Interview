@@ -1,7 +1,7 @@
 import type { StudyPlan } from "../lib/studyPlanTypes";
 import type { ProblemEntry } from "../lib/types";
 import { computePlanProgress, isSectionComplete } from "../lib/studyPlanLoader";
-import { formatPattern } from "../lib/format";
+import { formatPattern, patternDocUrl } from "../lib/format";
 
 interface PlanViewProps {
   plan: StudyPlan;
@@ -74,9 +74,14 @@ export default function PlanView({
                           <span className={`plan-problem-difficulty plan-problem-difficulty-${entry.difficulty.toLowerCase()}`}>
                             {entry.difficulty}
                           </span>
-                          <span className="plan-problem-pattern">
+                          <a
+                            href={patternDocUrl(entry.pattern)}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="plan-problem-pattern"
+                          >
                             {formatPattern(entry.pattern)}
-                          </span>
+                          </a>
                           {entry.sourceUrl && entry.sourceUrl !== "TBD" && (
                             <a
                               href={entry.sourceUrl}
