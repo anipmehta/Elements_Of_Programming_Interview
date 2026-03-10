@@ -4,7 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "npm run copy-data && vite",
+    "copy-data": "cp ../problems.json ../study-plans.json public/",
+    "prebuild": "npm run copy-data",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

@@ -23,3 +23,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Data files copied from repo root at build time
+public/problems.json
+public/study-plans.json
