@@ -84,15 +84,15 @@ Implement the Study Plans feature for AlgoForge in phased increments. Each phase
     - Follow the schema: `id`, `name`, `description`, `author`, `tags`, `sections` with `order`, `focus`, `problemNames`
     - _Requirements: 1.1, 1.2, 1.5, 9.2, 9.5_
 
-- [ ] 6. Build PlanSelector and PlanView components
-  - [ ] 6.1 Create `web/src/components/PlanSelector.tsx`
+- [x] 6. Build PlanSelector and PlanView components
+  - [x] 6.1 Create `web/src/components/PlanSelector.tsx`
     - Accept `PlanSelectorProps`: `plans`, `activePlanId`, `onSelectPlan`, `onDeactivatePlan`
     - Render a list of plan cards showing name, description, author, and tags
     - Highlight the active plan and show a "Deactivate" button on it
     - Non-active plans show a "Select" button
     - _Requirements: 2.1, 2.3, 2.4_
 
-  - [ ] 6.2 Create `web/src/components/PlanView.tsx`
+  - [x] 6.2 Create `web/src/components/PlanView.tsx`
     - Accept `PlanViewProps`: `plan`, `problems`, `completed`, `onToggle`
     - Render overall progress bar at the top using `computePlanProgress`
     - Render each section in order with focus description, section completion indicator
@@ -100,30 +100,30 @@ Implement the Study Plans feature for AlgoForge in phased increments. Each phase
     - Checkbox toggle calls `onToggle(problemName)`
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5, 4.1_
 
-  - [ ]* 6.3 Write unit tests for PlanSelector in `web/src/__tests__/components/PlanSelector.test.tsx`
+  - [x]* 6.3 Write unit tests for PlanSelector in `web/src/__tests__/components/PlanSelector.test.tsx`
     - Test rendering of plan cards with name, description, author, tags
     - Test select and deactivate button interactions
     - _Requirements: 2.1, 2.3, 2.4_
 
-  - [ ]* 6.4 Write unit tests for PlanView in `web/src/__tests__/components/PlanView.test.tsx`
+  - [x]* 6.4 Write unit tests for PlanView in `web/src/__tests__/components/PlanView.test.tsx`
     - Test section rendering in order with focus descriptions
     - Test progress bar display
     - Test problem toggle interaction calls onToggle
     - Test section completion indicator
     - _Requirements: 3.1, 3.2, 3.3, 3.4, 3.5_
 
-- [ ] 7. Checkpoint — Ensure all tests pass
+- [x] 7. Checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 8. Integrate study plans into App.tsx with view navigation
-  - [ ] 8.1 Add view toggle state and plan state management to `App.tsx`
+- [x] 8. Integrate study plans into App.tsx with view navigation
+  - [x] 8.1 Add view toggle state and plan state management to `App.tsx`
     - Add `view` state: `"problems" | "plans"` defaulting to `"problems"`
     - Initialize `planStore` via `useMemo` and `activePlanId` state from `planStore.getActivePlanId()`
     - Call `useStudyPlans(problems)` to get validated plans
     - Implement `handleSelectPlan` and `handleDeactivatePlan` callbacks that update both `planStore` and React state
     - _Requirements: 2.2, 2.5, 5.1, 6.4_
 
-  - [ ] 8.2 Add navigation UI and conditional view rendering in `App.tsx`
+  - [x] 8.2 Add navigation UI and conditional view rendering in `App.tsx`
     - Add a nav element with two buttons/tabs to switch between "Problems" and "Study Plans" views
     - When `view === "problems"`: render FilterBar, StatusBar, StatsPanel, ProblemTable (existing)
     - When `view === "plans"`: render PlanSelector and conditionally PlanView (when a plan is active)
@@ -131,7 +131,7 @@ Implement the Study Plans feature for AlgoForge in phased increments. Each phase
     - Show `planStore.isMemoryFallback` warning in plans view (same pattern as existing progressStore warning)
     - _Requirements: 4.1, 4.2, 4.3, 6.1, 6.2, 6.3_
 
-  - [ ] 8.3 Add CSS styles for study plan components in `web/src/index.css`
+  - [x] 8.3 Add CSS styles for study plan components in `web/src/index.css`
     - Style the navigation tabs/buttons
     - Style PlanSelector plan cards (name, description, author, tags, active highlight)
     - Style PlanView sections, progress bar, section completion indicators, and problem rows
@@ -145,7 +145,7 @@ Implement the Study Plans feature for AlgoForge in phased increments. Each phase
     - Test that toggling a problem in PlanView updates ProblemTable's completed set and vice versa
     - _Requirements: 4.2, 4.3_
 
-- [ ] 9. Final checkpoint — Ensure all tests pass
+- [x] 9. Final checkpoint — Ensure all tests pass
   - Ensure all tests pass, ask the user if questions arise.
 
 ## Notes
